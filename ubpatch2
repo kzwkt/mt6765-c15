@@ -1,0 +1,121 @@
+../mer-kernel-check/mer_verify_kernel_config  out/.config
+WARNING: CONFIG_NFS_V4_1 is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_BLK_DEV_NBD is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS & CIFS support
+
+WARNING: CONFIG_SECURITY_YAMA_STACKED is invalid
+It is unset
+Allowed values : y, !, <4.3
+Comment says: optional, only valid for kernel < 4.3
+
+WARNING: CONFIG_NFS_V3_ACL is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_ANDROID_LOW_MEMORY_KILLER is invalid
+It is unset
+Allowed values : y, !
+Comment says: Helping memory handling at least with Android runtime (tested on Jolla C)
+
+WARNING: CONFIG_CIFS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional extra filesystem (CIFS - Windows net fs)
+
+ERROR: CONFIG_DUMMY is invalid
+Value is: y
+Allowed values : n
+Use of uninitialized value in concatenation (.) or string at ../mer-kernel-check/mer_verify_kernel_config line 204, <> line 5605.
+Comment says: 
+
+WARNING: CONFIG_NF_CONNTRACK_IPV4 is invalid
+It is unset
+Allowed values : y, m, !, <=4.18
+Comment says: optional, exists up to 4.18
+
+WARNING: CONFIG_SUNRPC is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_UDF_FS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional extra filesystem (DVD & portable USB)
+
+WARNING: CONFIG_NFS_ACL_SUPPORT is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_NFS_COMMON is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_NF_CONNTRACK_IPV6 is invalid
+It is unset
+Allowed values : y, m, !, <=4.18
+Comment says: optional, exists up to 4.18
+
+WARNING: CONFIG_NFS_V3 is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_NFS_V4 is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_SECURITY_SELINUX_BOOTPARAM_VALUE is invalid
+Value is: 1
+Allowed values : 0, !
+Comment says: Alternative way to disable SELinux at boottime
+
+WARNING: CONFIG_LOCKD_V4 is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_NFS_FS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_SUNRPC_GSS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_ISO9660_FS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional extra filesystem (CD-ROM)
+
+WARNING: CONFIG_NFS_USE_KERNEL_DNS is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_LOCKD is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_LBDAF is invalid
+It is unset
+Allowed values : y, !
+Comment says: ext4 filesystem requires this in order to support filesysetms with huge_file feature, which is enabled by default by mke2fs.ext4, not needed for 64bit architectures
+
+WARNING: CONFIG_RTC_DRV_CMOS is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, but highly recommended, not available on arm64
