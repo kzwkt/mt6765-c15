@@ -1,0 +1,305 @@
+../mer-kernel-check/mer
+mer_verify_kernel_config  mer_verify_kernel_spec    
+C:/home/k/src/android_kernel_realme_mt6765> ../mer-kernel-check/mer_verify_kernel_config  out/.con
+.config      .config.old  
+C:/home/k/src/android_kernel_realme_mt6765> ../mer-kernel-check/mer_verify_kernel_config  out/.config
+substr outside of string at ../mer-kernel-check/mer_verify_kernel_config line 164, <> line 5055.
+Use of uninitialized value in string eq at ../mer-kernel-check/mer_verify_kernel_config line 164, <> line 5055.
+substr outside of string at ../mer-kernel-check/mer_verify_kernel_config line 167, <> line 5055.
+Use of uninitialized value in string eq at ../mer-kernel-check/mer_verify_kernel_config line 167, <> line 5055.
+
+WARNING: CONFIG_SECURITY_YAMA_STACKED is invalid
+It is unset
+Allowed values : y, !, <4.3
+Comment says: optional, only valid for kernel < 4.3
+
+WARNING: CONFIG_F2FS_FS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional extra filesystem (f2fs - a good SD filesystem)
+
+ERROR: CONFIG_STATIC_USERMODEHELPER is invalid
+Value is: y
+Allowed values : n, 
+Comment says: Android mandates to use a user mode helper when the kernel has to call userspace programs to handle things such as core dumps but we don't do that.
+
+WARNING: CONFIG_NFS_COMMON is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_LOCKD_V4 is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+ERROR: CONFIG_FHANDLE is invalid
+It is unset
+Allowed values : y
+Comment says: systemd: http://cgit.freedesktop.org/systemd/systemd/commit/README?id=001809282918f273d372f1ee09d10b783c18a474
+
+WARNING: CONFIG_BTRFS_FS is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional extra filesystem (BTRFS)
+
+WARNING: CONFIG_NFS_V3_ACL is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_NETFILTER_XT_MATCH_NFACCT is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: connman (optional): for routing and statistic support in sessions, http://git.kernel.org/cgit/network/connman/connman.git/commit/README?id=41f37125887cb9208da2441e350e1e3324c17ee6
+
+WARNING: CONFIG_FW_LOADER_USER_HELPER_FALLBACK is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for droid firmware load helper
+
+ERROR: CONFIG_VT is invalid
+It is unset
+Allowed values : y
+Comment says: Required for virtual consoles
+
+ERROR: CONFIG_IP_NF_MATCH_RPFILTER is invalid
+It is unset
+Allowed values : y
+Comment says: Add to have both IPv4 and IPv6 RPFILTER matches set
+
+WARNING: CONFIG_NF_CONNTRACK_IPV6 is invalid
+It is unset
+Allowed values : y, m, !, <=4.18
+Comment says: optional, exists up to 4.18
+
+WARNING: CONFIG_F2FS_FS_SECURITY is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: required to mount f2fs volumes under SELinux
+
+WARNING: CONFIG_FW_LOADER_USER_HELPER is invalid
+It is unset
+Allowed values : y, !
+Comment says: Required by droid firmware load helper
+
+WARNING: CONFIG_SECURITY_SELINUX_BOOTPARAM is invalid
+It is unset
+Allowed values : y, !
+Comment says: Up to hybris-16 it's recommended to have SELinux disabled at boottime via kernel cmdline: selinux=0 or SECURITY_SELINUX_BOOTPARAM_VALUE=0. For hybris-17 SELinux should be left enabled.
+
+WARNING: CONFIG_CIFS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional extra filesystem (CIFS - Windows net fs)
+
+WARNING: CONFIG_BT_BNEP is invalid
+It is unset
+Allowed values : y, !
+Comment says: Bluez (optional): Needed if bluetooth networking is wanted, e.g. for bluetooth tethering
+
+WARNING: CONFIG_LBDAF is invalid
+It is unset
+Allowed values : y, !
+Comment says: ext4 filesystem requires this in order to support filesysetms with huge_file feature, which is enabled by default by mke2fs.ext4, not needed for 64bit architectures
+
+WARNING: CONFIG_ISO9660_FS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional extra filesystem (CD-ROM)
+
+WARNING: CONFIG_NFS_FS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+ERROR: CONFIG_DUMMY is invalid
+Value is: y
+Allowed values : n
+Use of uninitialized value in concatenation (.) or string at ../mer-kernel-check/mer_verify_kernel_config line 204, <> line 5557.
+Comment says: 
+
+WARNING: CONFIG_BLK_DEV_NBD is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS & CIFS support
+
+ERROR: CONFIG_QUOTA_NETLINK_INTERFACE is invalid
+It is unset
+Allowed values : y
+Comment says: For quota_nld service
+
+WARNING: CONFIG_CGROUP_DEVICE is invalid
+It is unset
+Allowed values : y, !
+Comment says: systemd (optional): https://github.com/systemd/systemd/blob/v238/README
+
+WARNING: CONFIG_FANOTIFY is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, required for systemd readahead.
+
+WARNING: CONFIG_SECURITY_SELINUX_BOOTPARAM_VALUE is invalid
+It is unset
+Allowed values : 0, !
+Comment says: Alternative way to disable SELinux at boottime
+
+WARNING: CONFIG_L2TP_IP is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: Support for L2TP-over-IP socket family. Enables L2TPIP socket family with which userspace L2TPv3 daemons may create L2TP/IP tunnel sockets when UDP encapsulation is not required
+
+WARNING: CONFIG_BT_BNEP_MC_FILTER is invalid
+It is unset
+Allowed values : y, !
+Comment says: Bluez (optional): Needed if bluetooth networking is wanted, e.g. for bluetooth tethering
+
+ERROR: CONFIG_SYSVIPC is invalid
+It is unset
+Allowed values : y
+Comment says: Inter Process Communication option is required to run Mer
+
+WARNING: CONFIG_NFS_USE_KERNEL_DNS is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_NFS_V3 is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_SUNRPC_GSS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_NFS_V4_1 is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_NFS_V4 is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_AUTOFS4_FS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: systemd (optional): http://cgit.freedesktop.org/systemd/systemd/commit/README?id=713bc0cfa477ca1df8769041cb3dbc83c10eace2
+
+WARNING: CONFIG_CHECKPOINT_RESTORE is invalid
+It is unset
+Allowed values : y, !
+Comment says: rich-core-dumper (https://github.com/mer-tools/sp-rich-core/) needs this to collect all data for environment recreation.
+
+WARNING: CONFIG_SUNRPC is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_IPC_NS is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, enables kernel namespaces for systemd-nspawn containers
+
+WARNING: CONFIG_ANDROID_LOW_MEMORY_KILLER is invalid
+It is unset
+Allowed values : y, !
+Comment says: Helping memory handling at least with Android runtime (tested on Jolla C)
+
+WARNING: CONFIG_RTC_DRV_CMOS is invalid
+It is unset
+Allowed values : y, !
+Comment says: optional, but highly recommended, not available on arm64
+
+WARNING: CONFIG_CGROUP_PERF is invalid
+It is unset
+Allowed values : y, !
+Comment says: systemd (optional): https://github.com/systemd/systemd/blob/v238/README
+
+WARNING: CONFIG_BT_RFCOMM is invalid
+It is unset
+Allowed values : y, !
+Comment says: Bluez (optional): Needed if bluez used as bluetooth stack
+
+WARNING: CONFIG_CUSE is invalid
+It is unset
+Allowed values : y, !, >=2.6
+Comment says: CUSE (optional): Required for software security modules support.
+
+WARNING: CONFIG_NF_CONNTRACK_IPV4 is invalid
+It is unset
+Allowed values : y, m, !, <=4.18
+Comment says: optional, exists up to 4.18
+
+WARNING: CONFIG_NETFILTER_XT_TARGET_LOG is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: Enable LOG target for netfilter. A real basic need for debugging iptables rules.
+
+WARNING: CONFIG_IP6_NF_MATCH_AH is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: connman: for ip6tables ah match
+
+WARNING: CONFIG_NET_CLS_CGROUP is invalid
+It is unset
+Allowed values : y, !
+Comment says: systemd (optional): https://github.com/systemd/systemd/blob/v238/README
+
+WARNING: CONFIG_BT_HCIVHCI is invalid
+It is unset
+Allowed values : y, !
+Comment says: Bluez (optional): Needed if bluebinder is used with bluez (Android 8+ based ports)
+
+WARNING: CONFIG_NFS_ACL_SUPPORT is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_NETFILTER_NETLINK_ACCT is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: connman (optional): for routing and statistic support in sessions, http://git.kernel.org/cgit/network/connman/connman.git/commit/README?id=41f37125887cb9208da2441e350e1e3324c17ee6
+
+WARNING: CONFIG_UDF_FS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional extra filesystem (DVD & portable USB)
+
+WARNING: CONFIG_ECRYPT_FS is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional extra filesystem (ecryptfs)
+
+WARNING: CONFIG_LOCKD is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: optional, for NFS support
+
+WARNING: CONFIG_IP6_NF_MATCH_MH is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: connman: for ip6tables mh match
+
+WARNING: CONFIG_BT_BNEP_PROTO_FILTER is invalid
+It is unset
+Allowed values : y, !
+Comment says: Bluez (optional): Needed if bluetooth networking is wanted, e.g. for bluetooth tethering
+
+WARNING: CONFIG_NETFILTER_XT_MATCH_DCCP is invalid
+It is unset
+Allowed values : y, m, !
+Comment says: connman: for iptables dccp match
+
+WARNING: CONFIG_WATCHDOG_NOWAYOUT is invalid
+It is unset
+Allowed values : y, !
+Comment says: If device uses watchdogs with dsme (https://github.com/sailfishos/dsme), this option should be enabled or watchdog does not protect the device in case dsme crashes.
+
+WARNING: CONFIG_CGROUP_NET_PRIO is invalid
+It is unset
+Allowed values : y, !, >=3.14
+Comment says: systemd (optional): https://github.com/systemd/systemd/blob/v238/README
