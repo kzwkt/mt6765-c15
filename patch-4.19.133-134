@@ -1,0 +1,125 @@
+find . -name "*.rej" 
+./arch/arm64/kernel/syscall.c.rej
+./drivers/gpu/mediatek/gpu_rgx/m1.11ED5389149/services/server/env/linux/physmem_osmem_linux.c.rej
+./drivers/gpu/mediatek/gpu_rgx/m1.11ED5389149/kernel/drivers/staging/imgtec/pvr_fence.c.rej
+./drivers/thermal/cpu_cooling.c.rej
+./kernel/sched/core.c.rej
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--- arch/arm64/kernel/syscall.c
++++ arch/arm64/kernel/syscall.c
+@@ -50,6 +50,9 @@ static void invoke_syscall(struct pt_regs *regs, unsigned int scno,
+ 		ret = do_ni_syscall(regs, scno);
+ 	}
+ 
++	if (is_compat_task())
++		ret = lower_32_bits(ret);
++
+ 	regs->regs[0] = ret;
+ }
+ 
+
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- rogue_km/services/server/env/linux/physmem_osmem_linux.c	2019-04-26 02:39:36.000000000 +0800
++++ rogue_km/services/server/env/linux/physmem_osmem_linux.c	2019-06-17 11:14:15.291701094 +0800
+@@ -1258,11 +1258,16 @@
+ 		else if (*psDev->dma_mask == DMA_BIT_MASK(32))
+ 		{
+ 			/* Limit to 32 bit.
+ 			 * Achieved by NOT setting __GFP_HIGHMEM for 32 bit systems and
+ 			 * setting __GFP_DMA32 for 64 bit systems */
++#if defined(CONFIG_MACH_MT6739)
++			/* change to use __GFP_HIGHMEM since __GFP_DMA32 can access only 512 MB DRAM */
++			gfp_flags |= __GFP_HIGHMEM;
++#else
+ 			gfp_flags |= __GFP_DMA32;
++#endif
+ 		}
+ 		else
+ 		{
+ 			/* Limit to size of DMA zone. */
+ 			gfp_flags |= __GFP_DMA;
+
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--- rogue_km/kernel/drivers/staging/imgtec/pvr_fence.c	2019-04-26 02:39:36.000000000 +0800
++++ rogue_km/kernel/drivers/staging/imgtec/pvr_fence.c	2019-06-17 11:14:15.271701094 +0800
+@@ -237,11 +237,13 @@
+ 	list_for_each_entry_safe(pvr_fence, tmp, &signal_list, signal_head) {
+ 
+ 		PVR_FENCE_TRACE(&pvr_fence->base, "signalled fence (%s)\n",
+ 				pvr_fence->name);
+ 		trace_pvr_fence_signal_fence(pvr_fence);
++		spin_lock_irqsave(&pvr_fence->fctx->list_lock, flags1);
+ 		list_del(&pvr_fence->signal_head);
++		spin_unlock_irqrestore(&pvr_fence->fctx->list_lock, flags1);
+ 		dma_fence_signal(pvr_fence->fence);
+ 		dma_fence_put(pvr_fence->fence);
+ 	}
+ 
+ 	/*
+@@ -1002,11 +1004,13 @@
+ 
+ 	PVR_FENCE_TRACE(&pvr_fence->base, "signalled fence (%s)\n",
+ 			pvr_fence->name);
+ 
+ 	trace_pvr_fence_signal_fence(pvr_fence);
++	spin_lock_irqsave(&pvr_fence->fctx->list_lock, flags);
+ 	list_del(&pvr_fence->signal_head);
++	spin_unlock_irqrestore(&pvr_fence->fctx->list_lock, flags);
+ 	dma_fence_signal(pvr_fence->fence);
+ 	dma_fence_put(pvr_fence->fence);
+ 
+ 	return IMG_TRUE;
+ }
+@@ -1037,10 +1041,12 @@
+ 	list_for_each_entry_safe(pvr_fence, tmp2, &signal_list, signal_head) {
+ 		PVR_FENCE_TRACE(&pvr_fence->base, "signalled fence (%s)\n",
+ 				pvr_fence->name);
+ 
+ 		trace_pvr_fence_signal_fence(pvr_fence);
++		spin_lock_irqsave(&pvr_fence->fctx->list_lock, flags);
+ 		list_del(&pvr_fence->signal_head);
++		spin_unlock_irqrestore(&pvr_fence->fctx->list_lock, flags);
+ 		dma_fence_signal(pvr_fence->fence);
+ 		dma_fence_put(pvr_fence->fence);
+ 	}
+ }
+
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--- drivers/thermal/cpu_cooling.c
++++ drivers/thermal/cpu_cooling.c
+@@ -278,11 +278,11 @@ static u32 cpu_power_to_freq(struct cpufreq_cooling_device *cpufreq_cdev,
+ 	int i;
+ 	struct freq_table *freq_table = cpufreq_cdev->freq_table;
+ 
+-	for (i = 1; i <= cpufreq_cdev->max_level; i++)
+-		if (power > freq_table[i].power)
++	for (i = 0; i < cpufreq_cdev->max_level; i++)
++		if (power >= freq_table[i].power)
+ 			break;
+ 
+-	return freq_table[i - 1].frequency;
++	return freq_table[i].frequency;
+ }
+ 
+ /**
+
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- kernel/sched/core.c
++++ kernel/sched/core.c
+@@ -2410,6 +2411,7 @@ void wake_up_new_task(struct task_struct *p)
+ 	 * as we're not fully set-up yet.
+ 	 */
+ 	p->recent_used_cpu = task_cpu(p);
++	rseq_migrate(p);
+ 	__set_task_cpu(p, select_task_rq(p, task_cpu(p), SD_BALANCE_FORK, 0));
+ #endif
+ 	rq = __task_rq_lock(p, &rf);
