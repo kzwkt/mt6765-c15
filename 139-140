@@ -204,3 +204,6 @@ Hunk #1 succeeded at 104 (offset 5 lines).
 patching file tools/build/Build.include
 patching file tools/testing/selftests/powerpc/benchmarks/context_switch.c
 patching file tools/testing/selftests/powerpc/utils.c
+
+
+patch looks applied
