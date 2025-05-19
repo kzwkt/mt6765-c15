@@ -1,0 +1,6 @@
+Reversed (or previously applied) patch detected!  Assume -R? [n] n
+Apply anyway? [n] y
+
+./include/uapi/linux/wireless.h.rej
+
+looks already patched
