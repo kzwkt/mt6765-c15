@@ -1,0 +1,127 @@
+patch -p1 < ../patch-4.19.143-144 
+patching file Documentation/filesystems/affs.txt
+patching file Makefile
+patching file arch/arm64/include/asm/kvm_arm.h
+patching file arch/arm64/include/asm/kvm_asm.h
+patching file arch/arm64/kernel/vmlinux.lds.S
+patching file arch/arm64/kvm/hyp/entry.S
+Hunk #2 FAILED at 63.
+Hunk #3 succeeded at 152 (offset 3 lines).
+1 out of 3 hunks FAILED -- saving rejects to file arch/arm64/kvm/hyp/entry.S.rej
+patching file arch/arm64/kvm/hyp/hyp-entry.S
+patching file arch/arm64/kvm/hyp/switch.c
+patching file arch/mips/kernel/smp-bmips.c
+patching file arch/mips/mm/c-r4k.c
+patching file arch/s390/include/asm/percpu.h
+patching file arch/x86/mm/numa_emulation.c
+patching file drivers/ata/libata-core.c
+patching file drivers/ata/libata-scsi.c
+patching file drivers/cpuidle/cpuidle.c
+Hunk #1 succeeded at 149 (offset 1 line).
+patching file drivers/dma/at_hdmac.c
+patching file drivers/dma/of-dma.c
+patching file drivers/dma/pl330.c
+patching file drivers/gpu/drm/msm/adreno/a6xx_gmu.c
+patching file drivers/gpu/drm/msm/msm_drv.c
+patching file drivers/hid/hid-core.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 succeeded at 1455 with fuzz 1 (offset 30 lines).
+Hunk #2 FAILED at 1448.
+Hunk #3 FAILED at 1575.
+2 out of 3 hunks FAILED -- saving rejects to file drivers/hid/hid-core.c.rej
+patching file drivers/hid/hid-input.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 1125.
+1 out of 1 hunk FAILED -- saving rejects to file drivers/hid/hid-input.c.rej
+patching file drivers/hid/hid-multitouch.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 841.
+1 out of 1 hunk FAILED -- saving rejects to file drivers/hid/hid-multitouch.c.rej
+patching file drivers/hwmon/applesmc.c
+patching file drivers/iommu/intel_irq_remapping.c
+patching file drivers/md/dm-cache-metadata.c
+patching file drivers/md/dm-thin-metadata.c
+patching file drivers/md/dm-writecache.c
+patching file drivers/media/rc/rc-main.c
+patching file drivers/net/ethernet/arc/emac_mdio.c
+patching file drivers/net/ethernet/broadcom/bcmsysport.c
+patching file drivers/net/ethernet/broadcom/bnxt/bnxt.c
+patching file drivers/net/ethernet/broadcom/bnxt/bnxt_ethtool.c
+patching file drivers/net/ethernet/broadcom/tg3.c
+patching file drivers/net/ethernet/cortina/gemini.c
+patching file drivers/net/ethernet/hisilicon/hns/hns_enet.c
+patching file drivers/net/ethernet/mellanox/mlx4/mr.c
+patching file drivers/net/ethernet/renesas/ravb_main.c
+patching file drivers/net/gtp.c
+patching file drivers/net/usb/asix_common.c
+patching file drivers/net/usb/qmi_wwan.c
+patching file drivers/nvme/target/core.c
+patching file drivers/nvme/target/fc.c
+patching file drivers/target/target_core_user.c
+patching file drivers/thermal/ti-soc-thermal/omap4-thermal-data.c
+patching file drivers/thermal/ti-soc-thermal/omap4xxx-bandgap.h
+patching file drivers/tty/serial/qcom_geni_serial.c
+patching file drivers/vfio/pci/vfio_pci.c
+patching file drivers/vfio/pci/vfio_pci_config.c
+patching file drivers/vfio/pci/vfio_pci_intrs.c
+patching file drivers/vfio/pci/vfio_pci_private.h
+patching file drivers/vfio/pci/vfio_pci_rdwr.c
+patching file drivers/vfio/vfio_iommu_type1.c
+Hunk #2 succeeded at 411 with fuzz 2 (offset 3 lines).
+patching file drivers/xen/xenbus/xenbus_client.c
+patching file fs/affs/amigaffs.c
+patching file fs/affs/file.c
+patching file fs/btrfs/ctree.c
+patching file fs/btrfs/extent_io.c
+patching file fs/btrfs/extent_io.h
+patching file fs/btrfs/ioctl.c
+patching file fs/btrfs/volumes.c
+patching file fs/ceph/file.c
+patching file fs/eventpoll.c
+Hunk #1 FAILED at 1891.
+1 out of 1 hunk FAILED -- saving rejects to file fs/eventpoll.c.rej
+patching file fs/ext2/file.c
+patching file fs/xfs/libxfs/xfs_attr_leaf.c
+patching file fs/xfs/libxfs/xfs_bmap.c
+patching file fs/xfs/xfs_file.c
+patching file include/linux/bvec.h
+patching file include/linux/hid.h
+Hunk #1 FAILED at 956.
+Hunk #2 FAILED at 997.
+2 out of 2 hunks FAILED -- saving rejects to file include/linux/hid.h.rej
+patching file include/linux/libata.h
+patching file include/linux/log2.h
+patching file include/linux/netfilter/nfnetlink.h
+patching file include/linux/uaccess.h
+patching file include/net/netfilter/nf_tables.h
+patching file include/uapi/linux/netfilter/nf_tables.h
+patching file mm/hugetlb.c
+patching file mm/maccess.c
+patching file mm/slub.c
+Hunk #1 succeeded at 769 (offset 123 lines).
+Hunk #2 succeeded at 1506 (offset 163 lines).
+Hunk #3 succeeded at 2206 (offset 169 lines).
+patching file net/batman-adv/bat_v_ogm.c
+patching file net/batman-adv/bridge_loop_avoidance.c
+patching file net/batman-adv/gateway_client.c
+patching file net/netfilter/nf_tables_api.c
+patching file net/netfilter/nfnetlink.c
+patching file net/netfilter/nfnetlink_log.c
+patching file net/netfilter/nfnetlink_queue.c
+patching file net/netfilter/nft_payload.c
+patching file net/wireless/reg.c
+patching file scripts/checkpatch.pl
+Hunk #1 succeeded at 2543 (offset 2 lines).
+patching file sound/core/oss/mulaw.c
+patching file sound/firewire/digi00x/digi00x.c
+patching file sound/pci/ca0106/ca0106_main.c
+patching file sound/pci/hda/patch_hdmi.c
+patching file sound/pci/hda/patch_realtek.c
+patching file tools/include/uapi/linux/perf_event.h
+patching file tools/perf/Documentation/perf-record.txt
+patching file tools/perf/Documentation/perf-stat.txt
+patching file tools/perf/pmu-events/jevents.c
+patching file tools/testing/selftests/bpf/test_maps.c
