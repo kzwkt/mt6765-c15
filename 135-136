@@ -1,0 +1,28 @@
+patch -p1 < ../patch-4.19.135-136 
+
+patching file Makefile
+patching file drivers/base/regmap/regmap-debugfs.c
+patching file drivers/net/wan/x25_asy.c
+patching file include/linux/tcp.h
+patching file net/ax25/af_ax25.c
+patching file net/core/dev.c
+Hunk #1 succeeded at 5268 (offset 16 lines).
+patching file net/core/net-sysfs.c
+patching file net/core/rtnetlink.c
+Hunk #1 succeeded at 3233 (offset 87 lines).
+patching file net/core/sock_reuseport.c
+patching file net/ipv4/tcp_input.c
+Hunk #1 succeeded at 3511 (offset 22 lines).
+Hunk #2 succeeded at 3521 (offset 22 lines).
+patching file net/ipv4/tcp_output.c
+Hunk #1 succeeded at 2511 (offset 16 lines).
+Hunk #2 succeeded at 2533 (offset 16 lines).
+Hunk #3 succeeded at 2554 (offset 16 lines).
+patching file net/ipv4/udp.c
+patching file net/ipv6/ip6_gre.c
+patching file net/ipv6/udp.c
+patching file net/qrtr/qrtr.c
+Hunk #1 succeeded at 1018 (offset 5 lines).
+patching file net/rxrpc/recvmsg.c
+patching file net/rxrpc/sendmsg.c
+patching file net/sctp/stream.c
