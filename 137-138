@@ -1,0 +1,14 @@
+patch -p1 < ../patch-4.19.137-138 
+patching file Makefile
+patching file arch/arm/include/asm/percpu.h
+patching file drivers/char/random.c
+Hunk #1 succeeded at 1249 (offset -8 lines).
+patching file fs/ext4/inode.c
+Hunk #1 succeeded at 3885 (offset 37 lines).
+patching file include/linux/prandom.h
+patching file include/linux/random.h
+Hunk #1 succeeded at 108 (offset 2 lines).
+Hunk #2 succeeded at 136 (offset -6 lines).
+patching file kernel/time/timer.c
+Hunk #2 succeeded at 1658 (offset 3 lines).
+patching file lib/random32.c
