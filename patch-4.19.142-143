@@ -1,0 +1,231 @@
+patch -p1 < ../patch-4.19.142-143 
+patching file Makefile
+patching file arch/arm/boot/dts/ls1021a.dtsi
+patching file arch/arm64/boot/dts/qcom/msm8916-pins.dtsi
+patching file arch/arm64/kvm/hyp/switch.c
+patching file arch/mips/vdso/genvdso.c
+patching file arch/powerpc/kernel/cpu_setup_power.S
+patching file arch/powerpc/perf/core-book3s.c
+Hunk #1 succeeded at 2085 (offset -2 lines).
+patching file arch/powerpc/platforms/cell/Kconfig
+patching file arch/powerpc/sysdev/xive/native.c
+patching file block/blk-mq-sched.c
+patching file block/blk-mq.c
+Hunk #1 succeeded at 1229 (offset 8 lines).
+patching file drivers/base/core.c
+Hunk #1 succeeded at 3674 (offset 341 lines).
+Hunk #2 succeeded at 3686 (offset 341 lines).
+patching file drivers/base/power/main.c
+Hunk #1 succeeded at 1813 (offset 62 lines).
+patching file drivers/block/loop.c
+Hunk #1 succeeded at 866 (offset 2 lines).
+Hunk #2 succeeded at 879 (offset 2 lines).
+Hunk #3 succeeded at 891 (offset 2 lines).
+patching file drivers/block/null_blk_main.c
+patching file drivers/char/tpm/tpm-chip.c
+patching file drivers/char/tpm/tpm.h
+patching file drivers/char/tpm/tpm2-space.c
+patching file drivers/char/tpm/tpmrm-dev.c
+patching file drivers/edac/ie31200_edac.c
+patching file drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c
+patching file drivers/gpu/drm/amd/amdgpu/amdgpu_display.c
+patching file drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c
+patching file drivers/gpu/drm/amd/amdgpu/amdgpu_kms.c
+patching file drivers/gpu/drm/amd/amdkfd/kfd_topology.c
+patching file drivers/gpu/drm/amd/powerplay/hwmgr/vega10_thermal.c
+patching file drivers/gpu/drm/amd/powerplay/hwmgr/vega12_thermal.c
+patching file drivers/gpu/drm/msm/adreno/adreno_gpu.c
+patching file drivers/gpu/drm/nouveau/dispnv50/disp.c
+patching file drivers/gpu/drm/nouveau/nouveau_connector.c
+patching file drivers/gpu/drm/nouveau/nouveau_fbcon.c
+patching file drivers/gpu/drm/radeon/radeon_connectors.c
+patching file drivers/hid/hid-ids.h
+Hunk #1 succeeded at 760 (offset 4 lines).
+patching file drivers/hid/hid-quirks.c
+Hunk #1 succeeded at 181 (offset 2 lines).
+patching file drivers/hid/i2c-hid/i2c-hid-core.c
+patching file drivers/hid/usbhid/hiddev.c
+patching file drivers/i2c/busses/i2c-rcar.c
+patching file drivers/iommu/iova.c
+Hunk #1 succeeded at 901 (offset 87 lines).
+patching file drivers/irqchip/irq-stm32-exti.c
+patching file drivers/media/cec/cec-api.c
+patching file drivers/media/pci/ttpci/av7110.c
+patching file drivers/media/rc/gpio-ir-tx.c
+patching file drivers/mfd/intel-lpss-pci.c
+patching file drivers/net/ethernet/amazon/ena/ena_netdev.c
+patching file drivers/net/ethernet/freescale/gianfar.c
+patching file drivers/net/ethernet/intel/ixgbe/ixgbe_fcoe.c
+patching file drivers/net/ipvlan/ipvlan_main.c
+patching file drivers/net/macvlan.c
+patching file drivers/net/wireless/ath/ath10k/hw.h
+patching file drivers/net/wireless/realtek/rtlwifi/usb.c
+patching file drivers/nvme/host/fc.c
+patching file drivers/pci/slot.c
+patching file drivers/s390/cio/css.c
+patching file drivers/scsi/fcoe/fcoe_ctlr.c
+patching file drivers/scsi/lpfc/lpfc_vport.c
+patching file drivers/scsi/qla2xxx/qla_mbx.c
+patching file drivers/scsi/qla2xxx/qla_nvme.c
+patching file drivers/scsi/qla2xxx/qla_os.c
+patching file drivers/scsi/scsi_transport_iscsi.c
+patching file drivers/scsi/ufs/ufshcd.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] n
+Apply anyway? [n] y
+Hunk #1 FAILED at 1540.
+Hunk #2 FAILED at 1571.
+Hunk #3 succeeded at 5846 (offset 244 lines).
+Hunk #4 succeeded at 5867 (offset 251 lines).
+Hunk #5 succeeded at 5876 with fuzz 2 (offset 249 lines).
+Hunk #6 succeeded at 6393 (offset 466 lines).
+Hunk #7 succeeded at 6427 (offset 466 lines).
+2 out of 7 hunks FAILED -- saving rejects to file drivers/scsi/ufs/ufshcd.c.rej
+patching file drivers/spi/spi-stm32.c
+patching file drivers/target/target_core_user.c
+patching file drivers/tty/serial/8250/8250_exar.c
+patching file drivers/tty/serial/8250/8250_port.c
+Hunk #1 succeeded at 2262 (offset 3 lines).
+Hunk #2 succeeded at 2275 (offset 3 lines).
+Hunk #3 succeeded at 2286 (offset 3 lines).
+patching file drivers/tty/serial/amba-pl011.c
+patching file drivers/tty/serial/samsung.c
+patching file drivers/tty/vt/vt.c
+patching file drivers/tty/vt/vt_ioctl.c
+patching file drivers/usb/class/cdc-acm.c
+patching file drivers/usb/core/quirks.c
+patching file drivers/usb/dwc3/gadget.c
+patching file drivers/usb/gadget/function/f_ncm.c
+patching file drivers/usb/gadget/function/f_tcm.c
+patching file drivers/usb/gadget/u_f.h
+patching file drivers/usb/host/ohci-exynos.c
+patching file drivers/usb/host/xhci-debugfs.c
+patching file drivers/usb/host/xhci-hub.c
+patching file drivers/usb/host/xhci.c
+Hunk #1 succeeded at 3172 (offset 18 lines).
+patching file drivers/usb/misc/lvstest.c
+patching file drivers/usb/misc/sisusbvga/sisusb.c
+patching file drivers/usb/misc/yurex.c
+patching file drivers/usb/storage/unusual_devs.h
+patching file drivers/usb/storage/unusual_uas.h
+patching file drivers/video/fbdev/core/fbcon.c
+patching file drivers/video/fbdev/omap2/omapfb/dss/dispc.c
+patching file drivers/video/fbdev/omap2/omapfb/dss/dsi.c
+patching file drivers/video/fbdev/omap2/omapfb/dss/dss.c
+patching file drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c
+patching file drivers/video/fbdev/omap2/omapfb/dss/hdmi5.c
+patching file drivers/video/fbdev/omap2/omapfb/dss/venc.c
+patching file drivers/xen/events/events_base.c
+patching file fs/btrfs/disk-io.c
+patching file fs/btrfs/file.c
+patching file fs/btrfs/free-space-cache.c
+patching file fs/btrfs/super.c
+patching file fs/btrfs/tree-log.c
+patching file fs/buffer.c
+Hunk #1 succeeded at 3196 (offset 3 lines).
+patching file fs/ceph/mds_client.c
+patching file fs/ext4/block_validity.c
+patching file fs/ext4/super.c
+Hunk #1 succeeded at 66 (offset 1 line).
+Hunk #2 succeeded at 4596 (offset 123 lines).
+Hunk #3 succeeded at 4670 (offset 123 lines).
+Hunk #4 succeeded at 4715 (offset 123 lines).
+Hunk #5 succeeded at 4857 (offset 128 lines).
+Hunk #6 succeeded at 4888 (offset 128 lines).
+Hunk #7 succeeded at 4980 (offset 128 lines).
+Hunk #8 succeeded at 4993 (offset 128 lines).
+Hunk #9 succeeded at 5032 (offset 128 lines).
+Hunk #10 succeeded at 5059 (offset 128 lines).
+Hunk #11 succeeded at 5079 (offset 128 lines).
+Hunk #12 succeeded at 5094 (offset 128 lines).
+Hunk #13 succeeded at 5161 (offset 128 lines).
+Hunk #14 succeeded at 5194 (offset 128 lines).
+Hunk #15 succeeded at 5229 (offset 128 lines).
+Hunk #16 succeeded at 5372 (offset 128 lines).
+Hunk #17 succeeded at 5415 (offset 128 lines).
+Hunk #18 succeeded at 5476 (offset 128 lines).
+Hunk #19 succeeded at 5505 (offset 128 lines).
+Hunk #20 succeeded at 5559 (offset 128 lines).
+Hunk #21 succeeded at 5593 (offset 128 lines).
+Hunk #22 succeeded at 5624 (offset 128 lines).
+Hunk #23 succeeded at 5647 (offset 128 lines).
+patching file fs/f2fs/f2fs.h
+Hunk #1 succeeded at 3302 (offset 381 lines).
+Hunk #2 succeeded at 3763 with fuzz 2 (offset 449 lines).
+patching file fs/f2fs/inline.c
+Hunk #1 succeeded at 270 (offset 14 lines).
+Hunk #2 succeeded at 292 with fuzz 2 (offset 14 lines).
+Hunk #3 succeeded at 306 (offset 14 lines).
+patching file fs/f2fs/node.c
+Hunk #1 succeeded at 2513 (offset 62 lines).
+Hunk #2 succeeded at 2521 (offset 62 lines).
+Hunk #3 succeeded at 2541 (offset 62 lines).
+patching file fs/f2fs/recovery.c
+Hunk #1 succeeded at 554 (offset 83 lines).
+Hunk #2 succeeded at 565 (offset 83 lines).
+patching file fs/f2fs/super.c
+Hunk #1 succeeded at 1161 (offset 157 lines).
+Hunk #2 succeeded at 1229 with fuzz 2 (offset 159 lines).
+patching file fs/fs-writeback.c
+Hunk #1 succeeded at 48 (offset 3 lines).
+Hunk #2 succeeded at 162 (offset 3 lines).
+Hunk #3 succeeded at 1046 (offset 3 lines).
+Hunk #4 succeeded at 1097 (offset 3 lines).
+Hunk #5 succeeded at 1109 (offset 3 lines).
+Hunk #6 succeeded at 1155 (offset 3 lines).
+Hunk #7 succeeded at 1169 (offset 3 lines).
+Hunk #8 succeeded at 1217 (offset 3 lines).
+Hunk #9 succeeded at 1326 (offset 3 lines).
+Hunk #10 succeeded at 1346 (offset 3 lines).
+Hunk #11 succeeded at 1354 (offset 3 lines).
+Hunk #12 succeeded at 1602 (offset 3 lines).
+Hunk #13 succeeded at 1744 (offset 3 lines).
+Hunk #14 succeeded at 1764 (offset 3 lines).
+Hunk #15 succeeded at 1772 (offset 3 lines).
+Hunk #16 succeeded at 1810 (offset 3 lines).
+Hunk #17 succeeded at 2221 (offset 5 lines).
+patching file fs/jbd2/transaction.c
+Hunk #1 succeeded at 1908 (offset -7 lines).
+Hunk #2 succeeded at 2002 (offset -7 lines).
+Hunk #3 succeeded at 2027 (offset -7 lines).
+Hunk #4 succeeded at 2474 (offset -7 lines).
+patching file fs/xfs/xfs_icache.c
+patching file fs/xfs/xfs_inode.c
+patching file fs/xfs/xfs_trans_inode.c
+patching file include/linux/efi.h
+patching file include/linux/fs.h
+Hunk #1 succeeded at 2141 (offset 91 lines).
+Hunk #2 succeeded at 2162 (offset 91 lines).
+patching file include/trace/events/writeback.h
+patching file kernel/irq/matrix.c
+patching file kernel/locking/lockdep_proc.c
+patching file kernel/trace/blktrace.c
+patching file net/core/skbuff.c
+Hunk #1 succeeded at 5224 (offset 96 lines).
+patching file net/ipv6/ip6_tunnel.c
+patching file net/qrtr/qrtr.c
+patching file net/smc/smc_diag.c
+patching file net/tipc/netlink_compat.c
+patching file sound/pci/cs46xx/cs46xx_lib.c
+patching file sound/pci/cs46xx/dsp_spos_scb_lib.c
+patching file sound/pci/hda/hda_codec.c
+patching file sound/pci/hda/hda_generic.c
+patching file sound/pci/hda/patch_sigmatel.c
+patching file sound/pci/ice1712/prodigy192.c
+patching file sound/pci/oxygen/xonar_dg.c
+patching file sound/soc/codecs/wm8958-dsp2.c
+patching file sound/soc/img/img-i2s-in.c
+patching file sound/soc/img/img-parallel-out.c
+patching file sound/soc/tegra/tegra30_ahub.c
+patching file sound/soc/tegra/tegra30_i2s.c
+patching file sound/usb/quirks-table.h
+patching file tools/testing/selftests/powerpc/pmu/ebb/back_to_back_ebbs_test.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/cycles_test.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/cycles_with_freeze_test.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/cycles_with_mmcr2_test.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/ebb.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/ebb_on_willing_child_test.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/lost_exception_test.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/multi_counter_test.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/multi_ebb_procs_test.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/pmae_handling_test.c
+patching file tools/testing/selftests/powerpc/pmu/ebb/pmc56_overflow_test.c
