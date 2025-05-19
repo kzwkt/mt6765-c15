@@ -1,0 +1,206 @@
+patch -p1 < ../patch-4.19.139-140 
+patching file Documentation/ABI/testing/sysfs-bus-iio
+patching file Makefile
+patching file arch/arm/boot/dts/r8a7793-gose.dts
+patching file arch/arm/kernel/stacktrace.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] n
+Apply anyway? [n] y
+Hunk #1 succeeded at 34 with fuzz 2 (offset 13 lines).
+Hunk #2 FAILED at 46.
+Hunk #3 FAILED at 54.
+2 out of 3 hunks FAILED -- saving rejects to file arch/arm/kernel/stacktrace.c.rej
+patching file arch/arm/mach-at91/pm.c
+patching file arch/arm/mach-socfpga/pm.c
+patching file arch/arm64/boot/dts/exynos/exynos7-espresso.dts
+patching file arch/arm64/boot/dts/hisilicon/hi3660-hikey960.dts
+patching file arch/arm64/boot/dts/hisilicon/hi6220-hikey.dts
+patching file arch/arm64/boot/dts/qcom/msm8916-pins.dtsi
+patching file arch/arm64/boot/dts/rockchip/rk3368-lion.dtsi
+patching file arch/arm64/boot/dts/rockchip/rk3399-puma.dtsi
+patching file arch/m68k/mac/iop.c
+patching file arch/mips/cavium-octeon/octeon-usb.c
+patching file arch/parisc/include/asm/barrier.h
+patching file arch/powerpc/boot/Makefile
+patching file arch/powerpc/boot/serial.c
+patching file arch/powerpc/kernel/vdso.c
+patching file arch/powerpc/mm/pkeys.c
+patching file arch/x86/crypto/aes_ctrby8_avx-x86_64.S
+patching file arch/x86/crypto/aesni-intel_asm.S
+patching file arch/x86/kernel/apic/io_apic.c
+patching file arch/x86/kernel/cpu/mcheck/mce-inject.c
+patching file arch/x86/kernel/ptrace.c
+patching file drivers/acpi/acpica/exprep.c
+patching file drivers/acpi/acpica/utdelete.c
+patching file drivers/block/loop.c
+Hunk #1 succeeded at 2291 (offset 12 lines).
+Hunk #2 succeeded at 2300 (offset 12 lines).
+patching file drivers/bluetooth/hci_h5.c
+patching file drivers/bluetooth/hci_serdev.c
+patching file drivers/char/agp/intel-gtt.c
+patching file drivers/clk/clk-scmi.c
+patching file drivers/cpufreq/armada-37xx-cpufreq.c
+patching file drivers/crypto/cavium/cpt/cptvf_algs.c
+patching file drivers/crypto/cavium/cpt/cptvf_reqmanager.c
+patching file drivers/crypto/cavium/cpt/request_manager.h
+patching file drivers/crypto/ccp/ccp-dev.h
+patching file drivers/crypto/ccp/ccp-ops.c
+patching file drivers/crypto/ccree/cc_cipher.c
+patching file drivers/crypto/hisilicon/sec/sec_algs.c
+patching file drivers/crypto/qat/qat_common/qat_uclo.c
+patching file drivers/edac/edac_device_sysfs.c
+patching file drivers/edac/edac_pci_sysfs.c
+patching file drivers/firmware/arm_scmi/scmi_pm_domain.c
+patching file drivers/gpu/drm/amd/amdgpu/amdgpu_fence.c
+patching file drivers/gpu/drm/arm/malidp_planes.c
+patching file drivers/gpu/drm/bridge/sil-sii8620.c
+patching file drivers/gpu/drm/drm_debugfs.c
+patching file drivers/gpu/drm/drm_mipi_dsi.c
+Hunk #1 succeeded at 1035 (offset 1 line).
+patching file drivers/gpu/drm/etnaviv/etnaviv_gpu.c
+patching file drivers/gpu/drm/imx/imx-tve.c
+patching file drivers/gpu/drm/msm/disp/dpu1/dpu_crtc.c
+patching file drivers/gpu/drm/nouveau/nouveau_drm.c
+patching file drivers/gpu/drm/nouveau/nouveau_gem.c
+patching file drivers/gpu/drm/nouveau/nouveau_sgdma.c
+patching file drivers/gpu/drm/panel/panel-simple.c
+patching file drivers/gpu/drm/radeon/ci_dpm.c
+patching file drivers/gpu/drm/radeon/radeon_display.c
+patching file drivers/gpu/drm/radeon/radeon_drv.c
+patching file drivers/gpu/drm/radeon/radeon_kms.c
+patching file drivers/gpu/drm/tilcdc/tilcdc_panel.c
+patching file drivers/gpu/drm/ttm/ttm_tt.c
+patching file drivers/gpu/host1x/debug.c
+patching file drivers/hid/hid-input.c
+patching file drivers/hwtracing/coresight/coresight-tmc-etf.c
+Hunk #1 succeeded at 609 (offset 26 lines).
+patching file drivers/infiniband/core/verbs.c
+patching file drivers/infiniband/hw/qedr/qedr.h
+patching file drivers/infiniband/hw/qedr/verbs.c
+patching file drivers/infiniband/sw/rxe/rxe_recv.c
+patching file drivers/infiniband/sw/rxe/rxe_verbs.c
+patching file drivers/iommu/intel_irq_remapping.c
+patching file drivers/irqchip/irq-mtk-sysirq.c
+patching file drivers/leds/led-class.c
+Hunk #1 succeeded at 208 (offset 35 lines).
+patching file drivers/leds/leds-lm355x.c
+patching file drivers/md/bcache/super.c
+patching file drivers/md/md-cluster.c
+patching file drivers/media/firewire/firedtv-fw.c
+patching file drivers/media/platform/exynos4-is/media-dev.c
+patching file drivers/media/platform/omap3isp/isppreview.c
+patching file drivers/misc/cxl/sysfs.c
+patching file drivers/mtd/nand/raw/qcom_nandc.c
+patching file drivers/net/dsa/mv88e6xxx/chip.c
+patching file drivers/net/dsa/rtl8366.c
+patching file drivers/net/ethernet/aquantia/atlantic/hw_atl/hw_atl_a0.c
+patching file drivers/net/ethernet/cavium/liquidio/cn23xx_pf_device.c
+patching file drivers/net/ethernet/freescale/fman/fman.c
+patching file drivers/net/ethernet/freescale/fman/fman_dtsec.c
+patching file drivers/net/ethernet/freescale/fman/fman_mac.h
+patching file drivers/net/ethernet/freescale/fman/fman_memac.c
+patching file drivers/net/ethernet/freescale/fman/fman_port.c
+patching file drivers/net/ethernet/freescale/fman/fman_tgec.c
+patching file drivers/net/ethernet/toshiba/spider_net.c
+patching file drivers/net/wan/lapbether.c
+patching file drivers/net/wireless/ath/ath10k/htt_tx.c
+patching file drivers/net/wireless/broadcom/brcm80211/brcmfmac/fwil_types.h
+patching file drivers/net/wireless/broadcom/brcm80211/brcmfmac/fwsignal.c
+patching file drivers/net/wireless/broadcom/brcm80211/brcmfmac/sdio.c
+patching file drivers/net/wireless/intel/iwlegacy/common.c
+patching file drivers/net/wireless/marvell/mwifiex/sta_cmdresp.c
+patching file drivers/net/wireless/ti/wl1251/event.c
+patching file drivers/parisc/sba_iommu.c
+patching file drivers/pci/access.c
+patching file drivers/pci/controller/pcie-cadence-host.c
+patching file drivers/pci/controller/vmd.c
+patching file drivers/pci/pcie/aspm.c
+patching file drivers/pci/quirks.c
+patching file drivers/phy/samsung/phy-exynos5-usbdrd.c
+patching file drivers/pinctrl/pinctrl-single.c
+patching file drivers/platform/x86/intel-hid.c
+patching file drivers/platform/x86/intel-vbtn.c
+patching file drivers/power/supply/88pm860x_battery.c
+patching file drivers/s390/net/qeth_l2_main.c
+patching file drivers/scsi/arm/cumana_2.c
+patching file drivers/scsi/arm/eesox.c
+patching file drivers/scsi/arm/powertec.c
+patching file drivers/scsi/mesh.c
+patching file drivers/scsi/scsi_debug.c
+patching file drivers/soc/qcom/rpmh-rsc.c
+patching file drivers/spi/spi-lantiq-ssc.c
+patching file drivers/spi/spidev.c
+patching file drivers/staging/rtl8192u/r8192U_core.c
+patching file drivers/thermal/ti-soc-thermal/ti-thermal-common.c
+patching file drivers/usb/core/quirks.c
+patching file drivers/usb/dwc2/platform.c
+patching file drivers/usb/gadget/udc/bdc/bdc_core.c
+patching file drivers/usb/gadget/udc/bdc/bdc_ep.c
+patching file drivers/usb/gadget/udc/net2280.c
+patching file drivers/usb/mtu3/mtu3_core.c
+Hunk #1 succeeded at 130 (offset 2 lines).
+patching file drivers/usb/serial/cp210x.c
+patching file drivers/usb/serial/iuu_phoenix.c
+patching file drivers/video/console/newport_con.c
+patching file drivers/video/fbdev/neofb.c
+patching file drivers/video/fbdev/pxafb.c
+patching file drivers/video/fbdev/sm712fb.c
+patching file drivers/xen/balloon.c
+patching file drivers/xen/gntdev-dmabuf.c
+patching file fs/9p/v9fs.c
+patching file fs/btrfs/extent_io.c
+patching file fs/dlm/lockspace.c
+patching file fs/minix/inode.c
+patching file fs/minix/itree_common.c
+patching file fs/nfs/pnfs.c
+patching file fs/ocfs2/dlmglue.c
+patching file fs/pstore/platform.c
+patching file fs/xfs/scrub/bmap.c
+patching file fs/xfs/xfs_reflink.c
+patching file include/asm-generic/vmlinux.lds.h
+Hunk #1 succeeded at 309 (offset 2 lines).
+patching file include/linux/bitfield.h
+patching file include/linux/tracepoint.h
+patching file include/net/inet_connection_sock.h
+patching file include/net/ip_vs.h
+patching file kernel/cgroup/cgroup.c
+Hunk #1 succeeded at 6081 (offset 124 lines).
+patching file kernel/sched/fair.c
+Hunk #1 succeeded at 10682 (offset 1474 lines).
+Hunk #2 succeeded at 11000 (offset 1492 lines).
+Hunk #3 succeeded at 11028 (offset 1492 lines).
+patching file kernel/sched/topology.c
+Hunk #1 succeeded at 1349 with fuzz 2 (offset 251 lines).
+patching file lib/dynamic_debug.c
+Hunk #4 succeeded at 920 (offset 142 lines).
+Hunk #5 succeeded at 933 (offset 142 lines).
+patching file mm/mmap.c
+Hunk #1 succeeded at 3526 (offset 426 lines).
+patching file net/bluetooth/6lowpan.c
+patching file net/ipv4/inet_connection_sock.c
+patching file net/ipv4/inet_hashtables.c
+patching file net/netfilter/ipvs/ip_vs_core.c
+patching file net/nfc/rawsock.c
+patching file net/packet/af_packet.c
+Hunk #1 succeeded at 954 (offset 5 lines).
+Hunk #2 succeeded at 1002 (offset 5 lines).
+Hunk #3 succeeded at 2287 (offset 13 lines).
+Hunk #4 succeeded at 2397 (offset 13 lines).
+patching file net/socket.c
+patching file net/sunrpc/xprtrdma/svc_rdma_rw.c
+patching file net/tls/tls_device.c
+patching file security/smack/smackfs.c
+patching file sound/pci/hda/patch_realtek.c
+patching file sound/soc/intel/boards/bxt_rt298.c
+patching file sound/soc/meson/axg-tdm-interface.c
+patching file sound/usb/card.h
+Hunk #1 succeeded at 133 (offset 4 lines).
+patching file sound/usb/mixer_quirks.c
+patching file sound/usb/pcm.c
+Hunk #1 succeeded at 1585 (offset 198 lines).
+patching file sound/usb/quirks-table.h
+patching file sound/usb/quirks.c
+patching file sound/usb/stream.c
+Hunk #1 succeeded at 104 (offset 5 lines).
+patching file tools/build/Build.include
+patching file tools/testing/selftests/powerpc/benchmarks/context_switch.c
+patching file tools/testing/selftests/powerpc/utils.c
