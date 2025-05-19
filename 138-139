@@ -1,0 +1,59 @@
+patch -p1 < ../patch-4.19.138-139 
+patching file Makefile
+patching file drivers/android/binder.c
+Hunk #1 FAILED at 2862.
+Hunk #2 succeeded at 3849 (offset 483 lines).
+1 out of 2 hunks FAILED -- saving rejects to file drivers/android/binder.c.rej
+patching file drivers/atm/atmtcp.c
+patching file drivers/firmware/qemu_fw_cfg.c
+patching file drivers/gpu/drm/nouveau/nouveau_fbcon.c
+patching file drivers/hv/channel_mgmt.c
+patching file drivers/hv/vmbus_drv.c
+patching file drivers/i2c/i2c-core-slave.c
+patching file drivers/leds/leds-88pm860x.c
+patching file drivers/leds/leds-da903x.c
+patching file drivers/leds/leds-lm3533.c
+patching file drivers/leds/leds-wm831x-status.c
+patching file drivers/mtd/mtdchar.c
+patching file drivers/net/ethernet/cavium/thunder/nicvf_main.c
+patching file drivers/net/ethernet/intel/i40e/i40e_virtchnl_pf.c
+patching file drivers/net/ethernet/intel/igb/igb_main.c
+patching file drivers/net/ethernet/mediatek/mtk_eth_soc.c
+Hunk #1 succeeded at 2416 (offset -36 lines).
+patching file drivers/net/hyperv/netvsc_drv.c
+patching file drivers/net/usb/hso.c
+patching file drivers/net/usb/lan78xx.c
+patching file drivers/net/vxlan.c
+patching file drivers/staging/android/ashmem.c
+patching file drivers/usb/host/xhci-pci.c
+patching file drivers/usb/misc/iowarrior.c
+patching file drivers/usb/serial/qcserial.c
+patching file drivers/video/console/vgacon.c
+patching file drivers/video/fbdev/omap2/omapfb/dss/dss.c
+patching file fs/xattr.c
+Hunk #3 succeeded at 430 (offset 16 lines).
+Hunk #4 succeeded at 450 (offset 16 lines).
+Hunk #5 succeeded at 466 (offset 16 lines).
+patching file include/linux/hyperv.h
+patching file include/linux/xattr.h
+Hunk #1 succeeded at 54 (offset 3 lines).
+patching file include/net/addrconf.h
+Hunk #1 succeeded at 317 (offset 12 lines).
+patching file net/9p/trans_fd.c
+patching file net/bluetooth/hci_event.c
+patching file net/ipv4/fib_trie.c
+patching file net/ipv4/gre_offload.c
+patching file net/ipv6/anycast.c
+patching file net/ipv6/ipv6_sockglue.c
+patching file net/openvswitch/conntrack.c
+patching file net/rxrpc/call_object.c
+patching file net/rxrpc/conn_object.c
+patching file net/rxrpc/recvmsg.c
+patching file net/rxrpc/sendmsg.c
+patching file net/wireless/nl80211.c
+Hunk #1 succeeded at 12519 (offset 127 lines).
+patching file security/smack/smackfs.c
+patching file sound/core/seq/oss/seq_oss.c
+patching file sound/pci/hda/hda_intel.c
+patching file tools/lib/traceevent/event-parse.c
+patching file tools/testing/selftests/net/msg_zerocopy.c
