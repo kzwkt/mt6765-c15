@@ -1,3 +1,7 @@
+wget https://www.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.19.133-134.xz
+unxz patch-4.19.133-134.xz
+patch -p1 < ../patch-4.19.133-134
+
 find . -name "*.rej" 
 ./arch/arm64/kernel/syscall.c.rej
 ./drivers/gpu/mediatek/gpu_rgx/m1.11ED5389149/services/server/env/linux/physmem_osmem_linux.c.rej
