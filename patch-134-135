@@ -1,1 +1,79 @@
+find . -name "*.rej" 
+./drivers/spi/spi-mt65xx.c.rej
+./include/uapi/linux/input-event-codes.h.rej
+./include/linux/mod_devicetable.h.rej
+./Makefile.rej
+
+
+
+--- drivers/spi/spi-mt65xx.c
++++ drivers/spi/spi-mt65xx.c
+@@ -273,18 +274,18 @@ static void mtk_spi_prepare_transfer(struct spi_master *master,
+ 	cs_time = sck_time * 2;
+ 
+ 	if (mdata->dev_comp->enhance_timing) {
++		reg_val = (((sck_time - 1) & 0xffff)
++			   << SPI_CFG2_SCK_HIGH_OFFSET);
+ 		reg_val |= (((sck_time - 1) & 0xffff)
+-			   << SPI_CFG0_SCK_HIGH_OFFSET);
+-		reg_val |= (((sck_time - 1) & 0xffff)
+-			   << SPI_ADJUST_CFG0_SCK_LOW_OFFSET);
++			   << SPI_CFG2_SCK_LOW_OFFSET);
+ 		writel(reg_val, mdata->base + SPI_CFG2_REG);
+-		reg_val |= (((cs_time - 1) & 0xffff)
++		reg_val = (((cs_time - 1) & 0xffff)
+ 			   << SPI_ADJUST_CFG0_CS_HOLD_OFFSET);
+ 		reg_val |= (((cs_time - 1) & 0xffff)
+ 			   << SPI_ADJUST_CFG0_CS_SETUP_OFFSET);
+ 		writel(reg_val, mdata->base + SPI_CFG0_REG);
+ 	} else {
+-		reg_val |= (((sck_time - 1) & 0xff)
++		reg_val = (((sck_time - 1) & 0xff)
+ 			   << SPI_CFG0_SCK_HIGH_OFFSET);
+ 		reg_val |= (((sck_time - 1) & 0xff) << SPI_CFG0_SCK_LOW_OFFSET);
+ 		reg_val |= (((cs_t
+ime - 1) & 0xff) << SPI_CFG0_CS_HOLD_OFFSET);
+
+
+--- include/uapi/linux/input-event-codes.h
++++ include/uapi/linux/input-event-codes.h
+@@ -795,7 +795,8 @@
+ #define SW_LINEIN_INSERT	0x0d  /* set = inserted */
+ #define SW_MUTE_DEVICE		0x0e  /* set = device disabled */
+ #define SW_PEN_INSERTED		0x0f  /* set = pen inserted */
+-#define SW_MAX			0x0f
++#define SW_MACHINE_COVER	0x10  /* set = cover closed */
++#define SW_MAX			0x10
+ #define SW_CNT			(SW_MAX+1)
+ 
+ /*
+
+
+--- include/linux/mod_devicetable.h
++++ include/linux/mod_devicetable.h
+@@ -299,7 +299,7 @@ struct pcmcia_device_id {
+ #define INPUT_DEVICE_ID_LED_MAX		0x0f
+ #define INPUT_DEVICE_ID_SND_MAX		0x07
+ #define INPUT_DEVICE_ID_FF_MAX		0x7f
+-#define INPUT_DEVICE_ID_SW_MAX		0x0f
++#define INPUT_DEVICE_ID_SW_MAX		0x10
+ #define INPUT_DEVICE_ID_PROP_MAX	0x1f
+ 
+ #define INPUT_DEVICE_ID_MATCH_BUS	1
+
+
+--- Makefile
++++ Makefile
+@@ -485,7 +485,7 @@ ifeq ($(cc-name),clang)
+ ifneq ($(CROSS_COMPILE),)
+ CLANG_FLAGS	+= --target=$(notdir $(CROSS_COMPILE:%-=%))
+ GCC_TOOLCHAIN_DIR := $(dir $(shell which $(CROSS_COMPILE)elfedit))
+-CLANG_FLAGS	+= --prefix=$(GCC_TOOLCHAIN_DIR)
++CLANG_FLAGS	+= --prefix=$(GCC_TOOLCHAIN_DIR)$(notdir $(CROSS_COMPILE))
+ GCC_TOOLCHAIN	:= $(realpath $(GCC_TOOLCHAIN_DIR)/..)
+ endif
+ ifneq ($(GCC_TOOLCHAIN),)
+
+
+
 
