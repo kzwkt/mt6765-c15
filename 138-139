@@ -57,3 +57,24 @@ patching file sound/core/seq/oss/seq_oss.c
 patching file sound/pci/hda/hda_intel.c
 patching file tools/lib/traceevent/event-parse.c
 patching file tools/testing/selftests/net/msg_zerocopy.c
+
+
+--- drivers/android/binder.c
++++ drivers/android/binder.c
+@@ -2862,6 +2862,12 @@ static void binder_transaction(struct binder_proc *proc,
+ 			goto err_dead_binder;
+ 		}
+ 		e->to_node = target_node->debug_id;
++		if (WARN_ON(proc == target_proc)) {
++			return_error = BR_FAILED_REPLY;
++			return_error_param = -EINVAL;
++			return_error_line = __LINE__;
++			goto err_invalid_target_handle;
++		}
+ 		if (security_binder_transaction(proc->tsk,
+ 						target_proc->tsk) < 0) {
+ 			return_error = BR_FAILED_REPLY;
+
+
+
+
