@@ -1,0 +1,113 @@
+patch -p1 < ../patch-4.19.141-142 
+patching file Makefile
+patching file arch/alpha/include/asm/io.h
+patching file arch/arm/include/asm/kvm_host.h
+patching file arch/arm64/include/asm/kvm_host.h
+patching file arch/m68k/include/asm/m53xxacr.h
+patching file arch/mips/include/asm/kvm_host.h
+patching file arch/mips/kvm/mmu.c
+patching file arch/powerpc/include/asm/kvm_host.h
+patching file arch/powerpc/kvm/book3s.c
+patching file arch/powerpc/kvm/e500_mmu_host.c
+patching file arch/powerpc/platforms/pseries/ras.c
+patching file arch/s390/kernel/ptrace.c
+patching file arch/s390/kernel/runtime_instr.c
+patching file arch/x86/include/asm/kvm_host.h
+patching file arch/x86/kvm/mmu.c
+patching file arch/x86/kvm/x86.c
+patching file arch/x86/pci/xen.c
+patching file drivers/clk/clk.c
+Hunk #1 succeeded at 54 with fuzz 2 (offset 14 lines).
+Hunk #2 succeeded at 3191 (offset 562 lines).
+Hunk #3 succeeded at 3946 (offset 618 lines).
+Hunk #4 succeeded at 4012 (offset 618 lines).
+patching file drivers/cpufreq/intel_pstate.c
+patching file drivers/firmware/efi/efi.c
+patching file drivers/gpu/drm/amd/display/include/fixed31_32.h
+patching file drivers/gpu/drm/vgem/vgem_drv.c
+patching file drivers/infiniband/hw/bnxt_re/main.c
+patching file drivers/input/mouse/psmouse-base.c
+patching file drivers/media/pci/ttpci/budget-core.c
+patching file drivers/media/platform/davinci/vpss.c
+patching file drivers/net/bonding/bond_main.c
+patching file drivers/net/dsa/b53/b53_common.c
+patching file drivers/net/ethernet/amazon/ena/ena_netdev.c
+patching file drivers/net/ethernet/cortina/gemini.c
+patching file drivers/net/ethernet/freescale/fec_main.c
+patching file drivers/net/ethernet/intel/i40e/i40e_adminq_cmd.h
+patching file drivers/net/ethernet/intel/i40e/i40e_common.c
+patching file drivers/net/ethernet/intel/i40e/i40e_main.c
+patching file drivers/net/hyperv/netvsc_drv.c
+patching file drivers/rtc/rtc-goldfish.c
+patching file drivers/s390/scsi/zfcp_fsf.c
+patching file drivers/scsi/libfc/fc_disc.c
+patching file drivers/scsi/ufs/ufs_quirks.h
+Reversed (or previously applied) patch detected!  Assume -R? [n] n
+Apply anyway? [n] y
+Hunk #1 FAILED at 21.
+1 out of 1 hunk FAILED -- saving rejects to file drivers/scsi/ufs/ufs_quirks.h.rej
+patching file drivers/scsi/ufs/ufshcd.c
+Hunk #1 succeeded at 215 with fuzz 1 (offset -3 lines).
+patching file drivers/spi/Kconfig
+Hunk #1 succeeded at 827 (offset 10 lines).
+patching file drivers/spi/spi.c
+Hunk #4 succeeded at 2320 (offset 2 lines).
+Hunk #5 succeeded at 2344 (offset 2 lines).
+patching file drivers/target/target_core_user.c
+patching file drivers/vfio/vfio_iommu_type1.c
+Hunk #1 succeeded at 1196 (offset 3 lines).
+Hunk #2 succeeded at 1223 (offset 3 lines).
+Hunk #3 succeeded at 1257 (offset 3 lines).
+Hunk #4 succeeded at 1266 (offset 3 lines).
+patching file drivers/video/fbdev/efifb.c
+patching file drivers/virtio/virtio_ring.c
+patching file drivers/xen/preempt.c
+patching file fs/afs/dynroot.c
+patching file fs/btrfs/ctree.h
+patching file fs/btrfs/export.c
+patching file fs/btrfs/export.h
+patching file fs/btrfs/inode.c
+patching file fs/btrfs/super.c
+patching file fs/btrfs/sysfs.c
+patching file fs/ceph/mds_client.c
+patching file fs/eventpoll.c
+Hunk #1 FAILED at 1890.
+Hunk #2 FAILED at 1936.
+Hunk #3 FAILED at 2091.
+Hunk #4 FAILED at 2121.
+Hunk #5 FAILED at 2145.
+5 out of 5 hunks FAILED -- saving rejects to file fs/eventpoll.c.rej
+patching file fs/ext4/block_validity.c
+patching file fs/ext4/namei.c
+Hunk #1 succeeded at 1391 with fuzz 1 (offset 82 lines).
+Hunk #2 succeeded at 1854 (offset 122 lines).
+Hunk #3 succeeded at 1864 (offset 122 lines).
+Hunk #4 succeeded at 2482 (offset 128 lines).
+patching file fs/jbd2/journal.c
+patching file fs/jffs2/dir.c
+patching file fs/romfs/storage.c
+patching file fs/signalfd.c
+Hunk #1 succeeded at 303 (offset -10 lines).
+Hunk #2 succeeded at 315 (offset -10 lines).
+patching file fs/xfs/xfs_sysfs.h
+patching file fs/xfs/xfs_trans_dquot.c
+patching file kernel/kthread.c
+Hunk #1 succeeded at 191 (offset 1 line).
+Hunk #2 succeeded at 244 (offset 1 line).
+patching file kernel/relay.c
+patching file mm/hugetlb.c
+Hunk #1 succeeded at 4652 (offset 2 lines).
+patching file mm/khugepaged.c
+Hunk #3 succeeded at 1007 (offset 2 lines).
+patching file mm/page_alloc.c
+Hunk #1 succeeded at 1222 (offset 107 lines).
+Hunk #2 succeeded at 7790 (offset 390 lines).
+patching file net/sunrpc/xprtrdma/svc_rdma_recvfrom.c
+patching file scripts/kconfig/qconf.cc
+patching file sound/soc/codecs/msm8916-wcd-analog.c
+patching file sound/soc/intel/atom/sst-mfld-platform-pcm.c
+patching file sound/soc/qcom/qdsp6/q6routing.c
+patching file tools/perf/util/probe-finder.c
+patching file tools/testing/selftests/cgroup/cgroup_util.c
+patching file virt/kvm/arm/mmu.c
+patching file virt/kvm/kvm_main.c
