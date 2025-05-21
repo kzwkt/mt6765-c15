@@ -1,0 +1,341 @@
+
+patching file Documentation/devicetree/bindings/sound/wm8994.txt
+patching file Documentation/driver-api/libata.rst
+patching file Makefile
+patching file arch/arm/include/asm/kvm_emulate.h
+patching file arch/arm/kernel/stacktrace.c
+Hunk #1 succeeded at 128 (offset 13 lines).
+patching file arch/arm/kernel/traps.c
+patching file arch/arm64/include/asm/kvm_emulate.h
+patching file arch/arm64/kernel/cpufeature.c
+patching file arch/arm64/kvm/hyp/switch.c
+patching file arch/m68k/q40/config.c
+patching file arch/mips/include/asm/cpu-type.h
+patching file arch/powerpc/include/asm/kvm_asm.h
+patching file arch/powerpc/kernel/eeh.c
+patching file arch/powerpc/kernel/traps.c
+patching file arch/powerpc/kvm/book3s_hv_tm.c
+patching file arch/powerpc/kvm/book3s_hv_tm_builtin.c
+patching file arch/riscv/include/asm/ftrace.h
+patching file arch/riscv/kernel/ftrace.c
+patching file arch/s390/kernel/perf_cpum_sf.c
+patching file arch/s390/kernel/setup.c
+patching file arch/x86/include/asm/nospec-branch.h
+patching file arch/x86/include/asm/pkeys.h
+patching file arch/x86/kernel/apic/io_apic.c
+patching file arch/x86/kernel/fpu/xstate.c
+patching file arch/x86/kvm/mmutrace.h
+patching file arch/x86/kvm/svm.c
+patching file arch/x86/kvm/x86.c
+patching file arch/x86/lib/usercopy_64.c
+patching file drivers/acpi/ec.c
+patching file drivers/ata/acard-ahci.c
+patching file drivers/ata/libahci.c
+patching file drivers/ata/libata-core.c
+patching file drivers/ata/libata-sff.c
+patching file drivers/ata/pata_macio.c
+patching file drivers/ata/pata_pxa.c
+patching file drivers/ata/pdc_adma.c
+patching file drivers/ata/sata_fsl.c
+patching file drivers/ata/sata_inic162x.c
+patching file drivers/ata/sata_mv.c
+patching file drivers/ata/sata_nv.c
+patching file drivers/ata/sata_promise.c
+patching file drivers/ata/sata_qstor.c
+patching file drivers/ata/sata_rcar.c
+patching file drivers/ata/sata_sil.c
+patching file drivers/ata/sata_sil24.c
+patching file drivers/ata/sata_sx4.c
+patching file drivers/atm/eni.c
+patching file drivers/base/regmap/regmap.c
+patching file drivers/bluetooth/btrtl.c
+patching file drivers/bus/hisi_lpc.c
+patching file drivers/char/random.c
+Hunk #1 succeeded at 1142 (offset -8 lines).
+patching file drivers/char/tlclk.c
+patching file drivers/char/tpm/tpm_crb.c
+patching file drivers/char/tpm/tpm_ibmvtpm.c
+patching file drivers/char/tpm/tpm_ibmvtpm.h
+patching file drivers/clk/socfpga/clk-pll-s10.c
+patching file drivers/clk/ti/adpll.c
+patching file drivers/clocksource/h8300_timer8.c
+patching file drivers/cpufreq/powernv-cpufreq.c
+patching file drivers/crypto/chelsio/chcr_algo.c
+patching file drivers/crypto/chelsio/chtls/chtls_io.c
+patching file drivers/devfreq/tegra-devfreq.c
+patching file drivers/dma-buf/dma-fence.c
+patching file drivers/dma/mediatek/mtk-hsdma.c
+patching file drivers/dma/stm32-dma.c
+patching file drivers/dma/stm32-mdma.c
+patching file drivers/dma/tegra20-apb-dma.c
+patching file drivers/dma/xilinx/zynqmp_dma.c
+patching file drivers/firmware/arm_sdei.c
+patching file drivers/gpu/drm/amd/amdgpu/amdgpu_bios.c
+patching file drivers/gpu/drm/amd/amdgpu/atom.c
+patching file drivers/gpu/drm/amd/amdkfd/kfd_device_queue_manager.c
+patching file drivers/gpu/drm/amd/display/dc/core/dc_link.c
+patching file drivers/gpu/drm/amd/display/dc/core/dc_link_ddc.c
+patching file drivers/gpu/drm/amd/powerplay/hwmgr/smu7_hwmgr.c
+patching file drivers/gpu/drm/amd/powerplay/hwmgr/vega10_hwmgr.c
+patching file drivers/gpu/drm/gma500/cdv_intel_display.c
+patching file drivers/gpu/drm/msm/adreno/a5xx_gpu.c
+patching file drivers/gpu/drm/msm/msm_drv.c
+patching file drivers/gpu/drm/nouveau/dispnv50/disp.c
+patching file drivers/gpu/drm/nouveau/nouveau_debugfs.c
+patching file drivers/gpu/drm/nouveau/nouveau_gem.c
+patching file drivers/gpu/drm/nouveau/nvkm/subdev/bios/shadowpci.c
+patching file drivers/gpu/drm/omapdrm/dss/omapdss-boot-init.c
+patching file drivers/gpu/drm/radeon/radeon_bios.c
+patching file drivers/gpu/drm/sun4i/sun8i_csc.h
+patching file drivers/gpu/drm/vc4/vc4_hdmi.c
+patching file drivers/i2c/i2c-core-base.c
+patching file drivers/infiniband/core/cm.c
+patching file drivers/infiniband/hw/cxgb4/cm.c
+patching file drivers/infiniband/hw/i40iw/i40iw_cm.c
+patching file drivers/infiniband/hw/qedr/qedr_iw_cm.c
+patching file drivers/infiniband/sw/rxe/rxe.c
+patching file drivers/infiniband/sw/rxe/rxe_qp.c
+patching file drivers/leds/leds-mlxreg.c
+patching file drivers/md/bcache/bcache.h
+patching file drivers/md/bcache/btree.c
+patching file drivers/md/bcache/super.c
+patching file drivers/media/dvb-frontends/tda10071.c
+patching file drivers/media/i2c/smiapp/smiapp-core.c
+patching file drivers/media/media-device.c
+Hunk #1 succeeded at 583 (offset 15 lines).
+Hunk #2 succeeded at 672 (offset 15 lines).
+Hunk #3 succeeded at 685 (offset 15 lines).
+patching file drivers/media/platform/ti-vpe/cal.c
+patching file drivers/media/usb/go7007/go7007-usb.c
+patching file drivers/mfd/mfd-core.c
+patching file drivers/mmc/core/mmc.c
+Hunk #1 succeeded at 312 (offset 12 lines).
+Hunk #2 succeeded at 328 (offset 12 lines).
+Hunk #3 succeeded at 358 (offset 12 lines).
+Hunk #4 succeeded at 376 (offset 12 lines).
+patching file drivers/mtd/chips/cfi_cmdset_0002.c
+patching file drivers/mtd/cmdlinepart.c
+patching file drivers/mtd/nand/raw/omap_elm.c
+patching file drivers/mtd/ubi/fastmap-wl.c
+patching file drivers/mtd/ubi/fastmap.c
+patching file drivers/mtd/ubi/ubi.h
+patching file drivers/mtd/ubi/wl.c
+patching file drivers/mtd/ubi/wl.h
+patching file drivers/net/ethernet/intel/e1000/e1000_main.c
+patching file drivers/net/ethernet/qlogic/qed/qed_sriov.c
+patching file drivers/net/ieee802154/adf7242.c
+patching file drivers/net/ieee802154/ca8210.c
+patching file drivers/net/wireless/ath/ar5523/ar5523.c
+patching file drivers/net/wireless/ath/ath10k/debug.c
+patching file drivers/net/wireless/ath/ath10k/sdio.c
+patching file drivers/net/wireless/ath/ath10k/wmi.c
+patching file drivers/net/wireless/marvell/mwifiex/fw.h
+patching file drivers/net/wireless/marvell/mwifiex/sta_cmdresp.c
+patching file drivers/net/wireless/mediatek/mt76/agg-rx.c
+patching file drivers/net/wireless/ti/wlcore/main.c
+patching file drivers/net/wireless/ti/wlcore/tx.c
+patching file drivers/nvme/host/core.c
+patching file drivers/nvme/host/multipath.c
+patching file drivers/nvme/host/nvme.h
+patching file drivers/nvme/target/rdma.c
+patching file drivers/pci/controller/pci-tegra.c
+patching file drivers/pci/hotplug/pciehp_hpc.c
+patching file drivers/pci/rom.c
+patching file drivers/phy/samsung/phy-s5pv210-usb2.c
+patching file drivers/power/supply/max17040_battery.c
+patching file drivers/rapidio/devices/rio_mport_cdev.c
+patching file drivers/rtc/rtc-ds1374.c
+patching file drivers/rtc/rtc-sa1100.c
+patching file drivers/s390/block/dasd_fba.c
+patching file drivers/s390/crypto/zcrypt_api.c
+patching file drivers/scsi/aacraid/aachba.c
+patching file drivers/scsi/aacraid/commsup.c
+patching file drivers/scsi/aacraid/linit.c
+patching file drivers/scsi/cxlflash/main.c
+patching file drivers/scsi/fnic/fnic_scsi.c
+patching file drivers/scsi/hpsa.c
+patching file drivers/scsi/libfc/fc_rport.c
+patching file drivers/scsi/lpfc/lpfc_attr.c
+patching file drivers/scsi/lpfc/lpfc_ct.c
+patching file drivers/scsi/lpfc/lpfc_hw.h
+patching file drivers/scsi/lpfc/lpfc_sli.c
+patching file drivers/scsi/pm8001/pm8001_sas.c
+patching file drivers/scsi/qedi/qedi_iscsi.c
+patching file drivers/scsi/ufs/ufshcd.c
+Hunk #1 succeeded at 348 with fuzz 1 (offset -5 lines).
+Hunk #2 FAILED at 1910.
+1 out of 2 hunks FAILED -- saving rejects to file drivers/scsi/ufs/ufshcd.c.rej
+patching file drivers/staging/media/imx/imx-media-capture.c
+patching file drivers/staging/rtl8188eu/core/rtw_recv.c
+patching file drivers/thermal/rcar_thermal.c
+patching file drivers/tty/serial/8250/8250_omap.c
+patching file drivers/tty/serial/8250/8250_port.c
+Hunk #1 succeeded at 1864 (offset 3 lines).
+Hunk #2 succeeded at 1873 (offset 3 lines).
+patching file drivers/tty/serial/samsung.c
+patching file drivers/tty/serial/xilinx_uartps.c
+patching file drivers/tty/vcc.c
+patching file drivers/usb/dwc3/gadget.c
+patching file drivers/usb/host/ehci-mv.c
+patching file drivers/vfio/pci/vfio_pci.c
+patching file fs/block_dev.c
+Hunk #1 succeeded at 1802 (offset 9 lines).
+patching file fs/btrfs/extent-tree.c
+patching file fs/btrfs/inode.c
+patching file fs/ceph/caps.c
+patching file fs/ceph/inode.c
+patching file fs/cifs/cifsglob.h
+patching file fs/cifs/file.c
+patching file fs/cifs/misc.c
+patching file fs/cifs/smb1ops.c
+patching file fs/cifs/smb2misc.c
+patching file fs/cifs/smb2ops.c
+patching file fs/cifs/smb2pdu.h
+patching file fs/dcache.c
+Hunk #1 succeeded at 851 (offset -13 lines).
+patching file fs/ext4/inode.c
+Hunk #1 succeeded at 5392 (offset 77 lines).
+patching file fs/ext4/mballoc.c
+patching file fs/fuse/dev.c
+Hunk #1 succeeded at 848 (offset 17 lines).
+patching file fs/gfs2/inode.c
+patching file fs/nfs/pagelist.c
+patching file fs/nfs/write.c
+patching file fs/nfsd/nfs4state.c
+patching file fs/ubifs/io.c
+patching file fs/xfs/libxfs/xfs_attr_leaf.c
+patching file fs/xfs/libxfs/xfs_dir2_node.c
+patching file fs/xfs/libxfs/xfs_trans_resv.c
+patching file fs/xfs/scrub/dir.c
+patching file include/linux/debugfs.h
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 succeeded at 56 with fuzz 2 (offset 2 lines).
+Hunk #2 FAILED at 77.
+Hunk #3 FAILED at 206.
+2 out of 3 hunks FAILED -- saving rejects to file include/linux/debugfs.h.rej
+patching file include/linux/libata.h
+patching file include/linux/mmc/card.h
+Hunk #1 succeeded at 234 (offset 7 lines).
+patching file include/linux/nfs_page.h
+patching file include/linux/pci.h
+Hunk #1 succeeded at 1161 (offset 17 lines).
+patching file include/linux/seqlock.h
+patching file include/linux/skbuff.h
+Hunk #1 succeeded at 1715 (offset 27 lines).
+Hunk #2 succeeded at 1934 (offset 27 lines).
+patching file include/net/sock.h
+Hunk #1 succeeded at 919 (offset 19 lines).
+patching file include/trace/events/sctp.h
+patching file kernel/audit_watch.c
+patching file kernel/bpf/hashtab.c
+patching file kernel/bpf/inode.c
+patching file kernel/kprobes.c
+patching file kernel/printk/printk.c
+Hunk #1 succeeded at 2475 (offset 327 lines).
+patching file kernel/sys.c
+Hunk #1 succeeded at 1291 (offset 16 lines).
+patching file kernel/time/timekeeping.c
+patching file kernel/trace/trace.c
+Hunk #1 succeeded at 3065 (offset 28 lines).
+Hunk #2 succeeded at 8627 (offset 98 lines).
+patching file kernel/trace/trace_entries.h
+patching file kernel/trace/trace_events.c
+Hunk #1 succeeded at 806 (offset 6 lines).
+patching file kernel/trace/trace_events_hist.c
+patching file kernel/trace/trace_preemptirq.c
+Hunk #1 succeeded at 71 (offset 12 lines).
+patching file lib/string.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 succeeded at 260 with fuzz 2 (offset 24 lines).
+patching file mm/filemap.c
+Hunk #1 succeeded at 2968 (offset 79 lines).
+patching file mm/kmemleak.c
+Hunk #1 succeeded at 2038 (offset -1 lines).
+patching file mm/memory.c
+Hunk #1 succeeded at 123 (offset 7 lines).
+Hunk #2 succeeded at 2534 with fuzz 1 (offset 187 lines).
+Hunk #3 FAILED at 2595.
+1 out of 3 hunks FAILED -- saving rejects to file mm/memory.c.rej
+patching file mm/mmap.c
+Hunk #1 succeeded at 2378 (offset 301 lines).
+Hunk #2 FAILED at 2119.
+1 out of 2 hunks FAILED -- saving rejects to file mm/mmap.c.rej
+patching file mm/pagewalk.c
+patching file mm/swap_state.c
+Hunk #1 succeeded at 543 (offset 6 lines).
+patching file mm/swapfile.c
+Hunk #2 succeeded at 2739 (offset 1 line).
+patching file mm/vmscan.c
+Hunk #1 succeeded at 3329 (offset 220 lines).
+Hunk #2 succeeded at 3855 (offset 228 lines).
+Hunk #3 succeeded at 3901 (offset 228 lines).
+Hunk #4 succeeded at 3991 (offset 232 lines).
+Hunk #5 succeeded at 4004 (offset 232 lines).
+Hunk #6 succeeded at 4052 (offset 232 lines).
+patching file net/atm/lec.c
+patching file net/batman-adv/bridge_loop_avoidance.c
+patching file net/batman-adv/bridge_loop_avoidance.h
+patching file net/batman-adv/routing.c
+patching file net/batman-adv/soft-interface.c
+patching file net/bluetooth/hci_event.c
+patching file net/bluetooth/l2cap_core.c
+patching file net/bluetooth/l2cap_sock.c
+patching file net/core/filter.c
+Hunk #1 succeeded at 5421 (offset 3 lines).
+Hunk #2 succeeded at 5428 (offset 3 lines).
+patching file net/core/neighbour.c
+patching file net/ipv4/route.c
+patching file net/ipv4/tcp.c
+Hunk #1 succeeded at 2044 (offset 6 lines).
+patching file net/ipv6/ip6_fib.c
+patching file net/llc/af_llc.c
+patching file net/mac802154/tx.c
+patching file net/openvswitch/meter.c
+patching file net/openvswitch/meter.h
+patching file net/sctp/outqueue.c
+patching file net/sunrpc/svc_xprt.c
+patching file net/sunrpc/xprtrdma/svc_rdma_backchannel.c
+patching file net/tipc/topsrv.c
+patching file net/unix/af_unix.c
+patching file security/selinux/hooks.c
+Hunk #1 succeeded at 3296 (offset -8 lines).
+Hunk #2 succeeded at 3382 (offset -8 lines).
+patching file security/selinux/selinuxfs.c
+Hunk #1 succeeded at 1540 (offset 31 lines).
+patching file sound/hda/hdac_bus.c
+patching file sound/pci/asihpi/hpioctl.c
+patching file sound/pci/hda/hda_controller.c
+patching file sound/pci/hda/patch_realtek.c
+patching file sound/soc/codecs/max98090.c
+patching file sound/soc/codecs/wm8994.c
+patching file sound/soc/codecs/wm_hubs.c
+patching file sound/soc/codecs/wm_hubs.h
+patching file sound/soc/img/img-i2s-out.c
+patching file sound/soc/intel/boards/bytcr_rt5640.c
+patching file sound/soc/kirkwood/kirkwood-dma.c
+patching file sound/usb/midi.c
+patching file sound/usb/mixer.c
+patching file sound/usb/quirks.c
+patching file tools/gpio/gpio-hammer.c
+patching file tools/objtool/check.c
+patching file tools/perf/builtin-stat.c
+patching file tools/perf/pmu-events/jevents.c
+patching file tools/perf/tests/shell/lib/probe_vfs_getname.sh
+patching file tools/perf/trace/beauty/arch_errno_names.sh
+patching file tools/perf/util/cpumap.c
+patching file tools/perf/util/evsel.c
+patching file tools/perf/util/mem2node.c
+patching file tools/perf/util/metricgroup.c
+patching file tools/perf/util/parse-events.c
+patching file tools/perf/util/sort.c
+patching file tools/perf/util/symbol-elf.c
+patching file tools/power/x86/intel_pstate_tracer/intel_pstate_tracer.py
+patching file tools/testing/selftests/ftrace/test.d/ftrace/func-filter-glob.tc
+patching file tools/testing/selftests/x86/syscall_nt.c
+patching file virt/kvm/arm/mmio.c
+patching file virt/kvm/arm/mmu.c
+patching file virt/kvm/arm/vgic/vgic-init.c
+patching file virt/kvm/arm/vgic/vgic-its.c
+patching file virt/kvm/kvm_main.c
