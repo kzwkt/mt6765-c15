@@ -1,0 +1,105 @@
+patching file Makefile
+patching file arch/arc/boot/dts/hsdk.dts
+patching file arch/arc/plat-eznps/include/plat/ctop.h
+patching file arch/arm/boot/dts/bcm-hr2.dtsi
+patching file arch/arm/boot/dts/bcm-nsp.dtsi
+patching file arch/arm/boot/dts/bcm5301x.dtsi
+patching file arch/arm/boot/dts/logicpd-som-lv-baseboard.dtsi
+patching file arch/arm/boot/dts/logicpd-torpedo-baseboard.dtsi
+patching file arch/arm/boot/dts/ls1021a.dtsi
+patching file arch/arm/boot/dts/socfpga_arria10.dtsi
+patching file arch/arm/boot/dts/vfxxx.dtsi
+patching file arch/arm64/boot/dts/broadcom/northstar2/ns2.dtsi
+patching file arch/powerpc/configs/pasemi_defconfig
+patching file arch/powerpc/configs/ppc6xx_defconfig
+patching file arch/x86/configs/i386_defconfig
+patching file arch/x86/configs/x86_64_defconfig
+patching file arch/x86/kvm/vmx.c
+patching file drivers/atm/firestream.c
+patching file drivers/block/rbd.c
+patching file drivers/cpufreq/intel_pstate.c
+patching file drivers/dma/acpi-dma.c
+patching file drivers/gpu/drm/amd/powerplay/hwmgr/smu7_hwmgr.c
+patching file drivers/gpu/drm/msm/adreno/a5xx_gpu.c
+patching file drivers/gpu/drm/sun4i/sun6i_mipi_dsi.c
+patching file drivers/gpu/drm/tve200/tve200_display.c
+patching file drivers/hid/hid-elan.c
+patching file drivers/hid/hid-ids.h
+Hunk #1 succeeded at 992 (offset 7 lines).
+patching file drivers/hid/hid-quirks.c
+Hunk #1 succeeded at 149 (offset 2 lines).
+patching file drivers/iio/accel/bmc150-accel-core.c
+patching file drivers/iio/accel/kxsd9.c
+patching file drivers/iio/accel/mma7455_core.c
+patching file drivers/iio/accel/mma8452.c
+patching file drivers/iio/adc/ina2xx-adc.c
+patching file drivers/iio/adc/max1118.c
+patching file drivers/iio/adc/mcp3422.c
+patching file drivers/iio/adc/ti-adc081c.c
+patching file drivers/iio/adc/ti-adc084s021.c
+patching file drivers/iio/adc/ti-ads1015.c
+patching file drivers/iio/chemical/ccs811.c
+patching file drivers/iio/light/ltr501.c
+patching file drivers/iio/light/max44000.c
+patching file drivers/iio/magnetometer/ak8975.c
+patching file drivers/infiniband/core/verbs.c
+patching file drivers/infiniband/hw/bnxt_re/ib_verbs.c
+patching file drivers/infiniband/sw/rxe/rxe.c
+patching file drivers/infiniband/sw/rxe/rxe_mr.c
+patching file drivers/infiniband/sw/rxe/rxe_verbs.c
+patching file drivers/iommu/amd_iommu_v2.c
+patching file drivers/mmc/host/sdhci-msm.c
+patching file drivers/net/wan/hdlc_cisco.c
+patching file drivers/net/wan/lapbether.c
+patching file drivers/nfc/st95hf/core.c
+patching file drivers/nvme/host/fabrics.c
+patching file drivers/nvme/host/rdma.c
+patching file drivers/phy/qualcomm/phy-qcom-qmp.c
+patching file drivers/phy/qualcomm/phy-qcom-qmp.h
+patching file drivers/regulator/core.c
+Hunk #1 succeeded at 1300 (offset 43 lines).
+Hunk #2 succeeded at 1311 (offset 43 lines).
+Hunk #3 succeeded at 1344 (offset 43 lines).
+Hunk #4 succeeded at 4417 (offset 33 lines).
+patching file drivers/scsi/libsas/sas_ata.c
+patching file drivers/staging/greybus/audio_topology.c
+patching file drivers/staging/wlan-ng/hfa384x_usb.c
+patching file drivers/staging/wlan-ng/prism2usb.c
+patching file drivers/target/iscsi/iscsi_target.c
+patching file drivers/target/iscsi/iscsi_target_login.c
+patching file drivers/target/iscsi/iscsi_target_login.h
+patching file drivers/target/iscsi/iscsi_target_nego.c
+patching file drivers/usb/core/message.c
+Hunk #1 succeeded at 1212 (offset 8 lines).
+Hunk #2 succeeded at 1253 (offset 8 lines).
+Hunk #3 succeeded at 1298 (offset 8 lines).
+Hunk #4 succeeded at 1542 (offset 8 lines).
+Hunk #5 succeeded at 1560 (offset 8 lines).
+Hunk #6 succeeded at 1573 (offset 8 lines).
+Hunk #7 succeeded at 1585 (offset 8 lines).
+patching file drivers/usb/core/sysfs.c
+patching file drivers/usb/serial/ftdi_sio.c
+patching file drivers/usb/serial/ftdi_sio_ids.h
+patching file drivers/usb/serial/option.c
+patching file drivers/usb/typec/ucsi/ucsi_acpi.c
+patching file drivers/video/console/Kconfig
+patching file drivers/video/console/vgacon.c
+patching file drivers/video/fbdev/core/bitblit.c
+patching file drivers/video/fbdev/core/fbcon.c
+patching file drivers/video/fbdev/core/fbcon.h
+patching file drivers/video/fbdev/core/fbcon_ccw.c
+patching file drivers/video/fbdev/core/fbcon_cw.c
+patching file drivers/video/fbdev/core/fbcon_ud.c
+patching file drivers/video/fbdev/core/tileblit.c
+patching file drivers/video/fbdev/vga16fb.c
+patching file fs/btrfs/extent-tree.c
+patching file fs/btrfs/ioctl.c
+patching file fs/btrfs/print-tree.c
+patching file fs/btrfs/volumes.c
+patching file fs/xfs/libxfs/xfs_attr_leaf.c
+patching file include/linux/netfilter/nf_conntrack_sctp.h
+patching file include/soc/nps/common.h
+patching file kernel/gcov/gcc_4_7.c
+patching file net/netfilter/nf_conntrack_proto_sctp.c
+patching file sound/hda/hdac_device.c
+patching file sound/pci/hda/patch_hdmi.c
