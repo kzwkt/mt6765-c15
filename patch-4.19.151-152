@@ -1,0 +1,27 @@
+2025-05-21 17:27:01 (14.6 MB/s) - ‘patch-4.19.151-152.xz’ saved [7824/7824]
+
+patching file Makefile
+patching file arch/arm/boot/compressed/Makefile
+patching file arch/arm/vdso/Makefile
+patching file drivers/crypto/bcm/cipher.c
+patching file drivers/crypto/qat/qat_common/qat_algs.c
+patching file drivers/media/usb/usbtv/usbtv-core.c
+patching file drivers/net/ethernet/marvell/mvmdio.c
+patching file drivers/staging/comedi/drivers/vmk80xx.c
+patching file drivers/usb/serial/ftdi_sio.c
+patching file drivers/usb/serial/ftdi_sio_ids.h
+patching file drivers/usb/serial/option.c
+patching file drivers/usb/serial/pl2303.c
+patching file drivers/usb/serial/pl2303.h
+patching file fs/reiserfs/inode.c
+patching file fs/reiserfs/xattr.c
+patching file include/net/bluetooth/hci_core.h
+patching file include/net/bluetooth/l2cap.h
+patching file net/bluetooth/a2mp.c
+patching file net/bluetooth/hci_conn.c
+patching file net/bluetooth/hci_event.c
+patching file net/bluetooth/l2cap_core.c
+patching file net/bluetooth/l2cap_sock.c
+patching file net/bluetooth/mgmt.c
+patching file tools/perf/util/cs-etm.c
+patching file tools/perf/util/cs-etm.h
