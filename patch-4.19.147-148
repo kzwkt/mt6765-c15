@@ -1,0 +1,46 @@
+patching file Documentation/kbuild/llvm.rst
+patching file MAINTAINERS
+patching file Makefile
+Hunk #2 succeeded at 358 with fuzz 2.
+Hunk #4 succeeded at 458 (offset 8 lines).
+Hunk #5 succeeded at 524 (offset 15 lines).
+patching file arch/x86/boot/compressed/Makefile
+patching file drivers/net/dsa/rtl8366.c
+patching file drivers/net/ethernet/broadcom/bnxt/bnxt.c
+patching file drivers/net/ethernet/broadcom/bnxt/bnxt_ethtool.c
+patching file drivers/net/ethernet/chelsio/cxgb4/cxgb4_filter.c
+patching file drivers/net/ethernet/netronome/nfp/nfp_net_ethtool.c
+patching file drivers/net/geneve.c
+patching file drivers/net/phy/phy_device.c
+patching file drivers/net/wan/Kconfig
+patching file drivers/net/wan/Makefile
+patching file drivers/net/wan/hdlc_ppp.c
+patching file drivers/tty/serial/8250/8250_core.c
+Hunk #1 FAILED at 1062.
+Hunk #2 succeeded at 1153 (offset 65 lines).
+1 out of 2 hunks FAILED -- saving rejects to file drivers/tty/serial/8250/8250_core.c.rej
+patching file include/linux/skbuff.h
+Hunk #1 succeeded at 3041 (offset 27 lines).
+Hunk #2 succeeded at 3066 (offset 27 lines).
+patching file include/net/inet_connection_sock.h
+patching file kernel/kprobes.c
+patching file mm/huge_memory.c
+patching file mm/vmscan.c
+Hunk #1 succeeded at 2928 (offset 220 lines).
+patching file net/dcb/dcbnl.c
+patching file net/ipv4/ip_output.c
+Hunk #2 succeeded at 1579 (offset -4 lines).
+patching file net/ipv4/route.c
+patching file net/ipv4/tcp_bbr.c
+patching file net/ipv6/Kconfig
+patching file net/ipv6/ip6_fib.c
+patching file net/key/af_key.c
+patching file net/qrtr/qrtr.c
+patching file net/sched/sch_generic.c
+Hunk #1 succeeded at 1126 (offset 11 lines).
+Hunk #2 succeeded at 1216 (offset 11 lines).
+patching file net/tipc/group.c
+patching file net/tipc/msg.c
+patching file net/tipc/socket.c
+patching file tools/objtool/Makefile
+patching file virt/kvm/kvm_main.c
