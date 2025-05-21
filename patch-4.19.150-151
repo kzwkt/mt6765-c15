@@ -1,0 +1,67 @@
+
+2025-05-21 17:23:19 (9.69 MB/s) - ‘patch-4.19.150-151.xz’ saved [14708/14708]
+
+patching file Makefile
+patching file arch/arm64/boot/dts/altera/socfpga_stratix10_socdk.dts
+patching file drivers/base/dd.c
+Hunk #1 succeeded at 476 (offset 4 lines).
+Hunk #2 succeeded at 590 (offset 10 lines).
+patching file drivers/gpu/drm/amd/amdgpu/amdgpu_ttm.c
+patching file drivers/gpu/drm/nouveau/nouveau_mem.c
+patching file drivers/i2c/busses/i2c-i801.c
+patching file drivers/i2c/busses/i2c-meson.c
+patching file drivers/i2c/busses/i2c-owl.c
+patching file drivers/mmc/core/queue.c
+Hunk #1 succeeded at 188 (offset 3 lines).
+patching file drivers/mtd/nand/raw/sunxi_nand.c
+patching file drivers/net/bonding/bond_main.c
+patching file drivers/net/ethernet/mellanox/mlx5/core/en_fs.c
+patching file drivers/net/ethernet/renesas/ravb_main.c
+patching file drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c
+patching file drivers/net/macsec.c
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/team/team.c
+patching file drivers/net/usb/ax88179_178a.c
+patching file drivers/net/usb/rtl8150.c
+patching file drivers/nvme/host/core.c
+patching file drivers/platform/x86/Kconfig
+patching file drivers/platform/x86/intel-vbtn.c
+patching file drivers/platform/x86/thinkpad_acpi.c
+patching file drivers/video/console/newport_con.c
+patching file drivers/video/fbdev/core/fbcon.c
+patching file drivers/video/fbdev/core/fbcon.h
+patching file drivers/video/fbdev/core/fbcon_rotate.c
+patching file drivers/video/fbdev/core/tileblit.c
+patching file fs/cifs/smb2ops.c
+patching file include/linux/font.h
+patching file include/linux/khugepaged.h
+patching file include/net/xfrm.h
+patching file kernel/events/core.c
+patching file kernel/umh.c
+patching file lib/fonts/font_10x18.c
+patching file lib/fonts/font_6x10.c
+patching file lib/fonts/font_6x11.c
+patching file lib/fonts/font_7x14.c
+patching file lib/fonts/font_8x16.c
+patching file lib/fonts/font_8x8.c
+patching file lib/fonts/font_acorn_8x8.c
+patching file lib/fonts/font_mini_4x6.c
+patching file lib/fonts/font_pearl_8x8.c
+patching file lib/fonts/font_sun12x22.c
+patching file lib/fonts/font_sun8x16.c
+patching file mm/khugepaged.c
+Hunk #3 succeeded at 1960 (offset 5 lines).
+Hunk #4 succeeded at 1986 (offset 5 lines).
+patching file mm/page_alloc.c
+Hunk #1 FAILED at 66.
+Hunk #2 succeeded at 7789 (offset 390 lines).
+1 out of 2 hunks FAILED -- saving rejects to file mm/page_alloc.c.rej
+patching file net/openvswitch/conntrack.c
+patching file net/rxrpc/conn_event.c
+patching file net/rxrpc/key.c
+patching file net/sctp/auth.c
+patching file net/wireless/nl80211.c
+Hunk #1 succeeded at 3722 (offset 101 lines).
+patching file net/xfrm/xfrm_interface.c
+patching file net/xfrm/xfrm_state.c
+patching file tools/perf/builtin-top.c
