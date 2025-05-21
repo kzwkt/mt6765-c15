@@ -1,0 +1,69 @@
+patching file Makefile
+patching file arch/ia64/mm/init.c
+patching file drivers/base/node.c
+Hunk #1 succeeded at 414 (offset 11 lines).
+Hunk #2 succeeded at 459 (offset 11 lines).
+Hunk #3 succeeded at 501 (offset 11 lines).
+patching file drivers/clk/samsung/clk-exynos4.c
+patching file drivers/clk/socfpga/clk-s10.c
+patching file drivers/gpio/gpio-mockup.c
+patching file drivers/gpio/gpio-sprd.c
+patching file drivers/gpio/gpio-tc3589x.c
+patching file drivers/gpu/drm/amd/amdgpu/amdgpu_display.c
+patching file drivers/gpu/drm/sun4i/sun8i_mixer.c
+patching file drivers/i2c/busses/i2c-cpm.c
+patching file drivers/input/mouse/trackpoint.c
+patching file drivers/input/serio/i8042-x86ia64io.h
+patching file drivers/iommu/exynos-iommu.c
+patching file drivers/mmc/host/sdhci-pci-core.c
+patching file drivers/net/ethernet/dec/tulip/de2104x.c
+patching file drivers/net/usb/rndis_host.c
+patching file drivers/net/wan/hdlc_cisco.c
+patching file drivers/net/wan/hdlc_fr.c
+patching file drivers/net/wan/hdlc_ppp.c
+patching file drivers/net/wan/lapbether.c
+patching file drivers/nvme/host/core.c
+patching file drivers/nvme/host/fc.c
+patching file drivers/pinctrl/mvebu/pinctrl-armada-xp.c
+patching file drivers/spi/spi-fsl-espi.c
+patching file drivers/usb/gadget/function/f_ncm.c
+patching file drivers/vhost/vsock.c
+patching file fs/eventpoll.c
+Hunk #1 succeeded at 223 (offset 1 line).
+Hunk #2 succeeded at 273 (offset 1 line).
+Hunk #3 succeeded at 284 (offset 1 line).
+Hunk #4 succeeded at 1377 (offset 1 line).
+Hunk #5 FAILED at 1385.
+Hunk #6 succeeded at 1465 with fuzz 2 (offset 17 lines).
+Hunk #7 FAILED at 1486.
+Hunk #8 FAILED at 1530.
+Hunk #9 FAILED at 1537.
+Hunk #10 succeeded at 1894 (offset 12 lines).
+Hunk #11 succeeded at 1940 (offset 12 lines).
+Hunk #12 succeeded at 2103 (offset 12 lines).
+Hunk #13 succeeded at 2164 (offset 12 lines).
+4 out of 13 hunks FAILED -- saving rejects to file fs/eventpoll.c.rej
+patching file fs/nfs/dir.c
+patching file include/linux/mm.h
+Hunk #1 succeeded at 2353 (offset 174 lines).
+patching file include/linux/mmzone.h
+Hunk #1 succeeded at 808 (offset 49 lines).
+patching file include/linux/node.h
+patching file include/linux/virtio_vsock.h
+patching file kernel/trace/ftrace.c
+Hunk #1 succeeded at 6372 (offset 2 lines).
+patching file lib/random32.c
+patching file mm/memory_hotplug.c
+patching file mm/page_alloc.c
+Hunk #1 succeeded at 5849 (offset 369 lines).
+Hunk #2 succeeded at 5876 (offset 369 lines).
+Hunk #3 succeeded at 5911 (offset 369 lines).
+Hunk #4 succeeded at 5926 (offset 369 lines).
+Hunk #5 succeeded at 5958 (offset 380 lines).
+patching file net/mac80211/vht.c
+patching file net/netfilter/nf_conntrack_netlink.c
+patching file net/packet/af_packet.c
+Hunk #1 succeeded at 2175 (offset 13 lines).
+Hunk #2 succeeded at 2239 (offset 13 lines).
+patching file net/vmw_vsock/virtio_transport.c
+patching file net/vmw_vsock/virtio_transport_common.c
