@@ -1,0 +1,13 @@
+ver=$1
+
+if [ -z "$ver" ]; then
+    echo "Usage: $0 <minor-version-number>"
+    exit 1
+fi
+
+ver1=$((ver + 1))
+file="patch-4.19.${ver}-${ver1}"
+wget "https://www.kernel.org/pub/linux/kernel/v4.x/incr/${file}.xz"
+unxz "${file}.xz"
+cd android_kernel_realme_mt6765/
+patch -p1 < "../${file}"
