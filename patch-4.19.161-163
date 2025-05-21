@@ -1,0 +1,132 @@
+
+C:/home/k/src> ./loop  161 162
+--2025-05-21 18:44:03--  https://www.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.19.161-162.xz
+Resolving www.kernel.org (www.kernel.org)... 2a04:4e42::311, 2a04:4e42:200::311, 2a04:4e42:400::311, ...
+Connecting to www.kernel.org (www.kernel.org)|2a04:4e42::311|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10948 (11K) [application/x-xz]
+Saving to: ‘patch-4.19.161-162.xz’
+
+patch-4.19.161-162.xz                   100%[===============================================================================>]  10.69K  --.-KB/s    in 0.04s   
+
+2025-05-21 18:44:04 (254 KB/s) - ‘patch-4.19.161-162.xz’ saved [10948/10948]
+
+patching file Documentation/devicetree/bindings/net/nfc/nxp-nci.txt
+patching file Documentation/devicetree/bindings/net/nfc/pn544.txt
+patching file Makefile
+patching file drivers/crypto/chelsio/chtls/chtls_cm.c
+patching file drivers/crypto/chelsio/chtls/chtls_hw.c
+patching file drivers/infiniband/hw/i40iw/i40iw_main.c
+patching file drivers/infiniband/hw/i40iw/i40iw_verbs.c
+patching file drivers/input/joystick/xpad.c
+patching file drivers/input/serio/i8042-x86ia64io.h
+patching file drivers/net/bonding/bond_main.c
+patching file drivers/net/bonding/bond_sysfs_slave.c
+patching file drivers/net/ethernet/chelsio/cxgb3/sge.c
+patching file drivers/net/ethernet/ibm/ibmvnic.c
+patching file drivers/net/ethernet/intel/i40e/i40e.h
+patching file drivers/net/ethernet/intel/i40e/i40e_main.c
+patching file drivers/net/ethernet/intel/i40e/i40e_virtchnl_pf.c
+patching file drivers/net/ethernet/marvell/mvpp2/mvpp2_main.c
+patching file drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c
+patching file drivers/net/ethernet/pasemi/pasemi_mac.c
+patching file drivers/net/geneve.c
+patching file drivers/net/tun.c
+patching file drivers/net/usb/ipheth.c
+patching file include/net/bonding.h
+patching file include/net/tls.h
+patching file kernel/trace/trace_hwlat.c
+patching file net/bridge/br_netfilter_hooks.c
+patching file net/core/skbuff.c
+Hunk #1 succeeded at 4361 (offset 96 lines).
+patching file net/ipv4/route.c
+patching file net/ipv4/tcp_cong.c
+patching file net/ipv6/addrlabel.c
+patching file net/ipv6/ip6_gre.c
+patching file net/iucv/af_iucv.c
+patching file net/rose/rose_loopback.c
+patching file net/tls/tls_device.c
+patching file net/tls/tls_sw.c
+patching file net/x25/af_x25.c
+patching file sound/usb/mixer_us16x08.c
+--2025-05-21 18:44:05--  https://www.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.19.162-163.xz
+Resolving www.kernel.org (www.kernel.org)... 2a04:4e42:400::311, 2a04:4e42:200::311, 2a04:4e42:600::311, ...
+Connecting to www.kernel.org (www.kernel.org)|2a04:4e42:400::311|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12528 (12K) [application/x-xz]
+Saving to: ‘patch-4.19.162-163.xz’
+
+patch-4.19.162-163.xz                   100%[===============================================================================>]  12.23K  --.-KB/s    in 0.001s  
+
+2025-05-21 18:44:06 (9.22 MB/s) - ‘patch-4.19.162-163.xz’ saved [12528/12528]
+
+patching file Makefile
+patching file arch/x86/include/asm/insn.h
+patching file arch/x86/kernel/uprobes.c
+patching file arch/x86/lib/insn-eval.c
+patching file drivers/i2c/busses/i2c-imx.c
+patching file drivers/i2c/busses/i2c-qup.c
+patching file drivers/input/serio/i8042.c
+patching file drivers/iommu/amd_iommu_types.h
+patching file drivers/md/dm-writecache.c
+patching file drivers/md/dm.c
+Hunk #1 succeeded at 464 (offset 2 lines).
+Hunk #2 succeeded at 497 (offset 2 lines).
+patching file drivers/net/geneve.c
+patching file drivers/pinctrl/intel/pinctrl-baytrail.c
+patching file drivers/scsi/mpt3sas/mpt3sas_ctl.c
+patching file drivers/spi/spi-bcm-qspi.c
+patching file drivers/spi/spi-bcm2835.c
+patching file drivers/spi/spi.c
+Hunk #1 succeeded at 2052 (offset 2 lines).
+Hunk #2 succeeded at 2345 (offset 2 lines).
+Hunk #3 succeeded at 2391 (offset 2 lines).
+patching file drivers/staging/speakup/spk_ttyio.c
+patching file drivers/tty/tty_io.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 2747.
+Hunk #2 FAILED at 2782.
+2 out of 2 hunks FAILED -- saving rejects to file drivers/tty/tty_io.c.rej
+patching file drivers/tty/tty_jobctrl.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 103.
+Hunk #2 FAILED at 293.
+Hunk #3 FAILED at 477.
+Hunk #4 FAILED at 494.
+Hunk #5 FAILED at 511.
+5 out of 5 hunks FAILED -- saving rejects to file drivers/tty/tty_jobctrl.c.rej
+patching file drivers/usb/gadget/function/f_fs.c
+Hunk #1 succeeded at 1315 (offset 72 lines).
+Hunk #2 succeeded at 1327 (offset 72 lines).
+patching file drivers/usb/serial/ch341.c
+patching file drivers/usb/serial/kl5kusb105.c
+patching file drivers/usb/serial/option.c
+patching file fs/cifs/connect.c
+patching file fs/gfs2/rgrp.c
+patching file include/linux/spi/spi.h
+patching file include/linux/tty.h
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 306.
+1 out of 1 hunk FAILED -- saving rejects to file include/linux/tty.h.rej
+patching file kernel/trace/ftrace.c
+Hunk #1 succeeded at 1651 (offset 1 line).
+Hunk #2 succeeded at 1790 (offset 1 line).
+Hunk #3 succeeded at 2218 (offset 1 line).
+patching file kernel/trace/trace.c
+Hunk #1 succeeded at 2444 (offset 28 lines).
+Hunk #2 succeeded at 2764 (offset 28 lines).
+patching file kernel/trace/trace.h
+patching file mm/list_lru.c
+patching file mm/swapfile.c
+Hunk #1 succeeded at 2826 (offset 1 line).
+Hunk #2 succeeded at 2856 (offset 1 line).
+Hunk #3 succeeded at 2869 (offset 1 line).
+patching file net/netfilter/nf_tables_api.c
+patching file sound/pci/hda/hda_generic.c
+patching file sound/pci/hda/hda_generic.h
+patching file sound/pci/hda/patch_realtek.c
+patching file tools/objtool/arch/x86/include/asm/insn.h
+patching file tools/perf/util/intel-pt-decoder/insn.h
