@@ -1,0 +1,89 @@
+2025-05-21 18:20:59 (16.6 MB/s) - ‘patch-4.19.155-156.xz’ saved [20348/20348]
+
+patching file Makefile
+patching file arch/arc/kernel/entry.S
+patching file arch/arc/kernel/stacktrace.c
+patching file arch/arm/boot/dts/sun4i-a10.dtsi
+patching file arch/arm64/boot/dts/marvell/armada-3720-espressobin.dts
+patching file arch/x86/kernel/kexec-bzimage64.c
+patching file block/blk-cgroup.c
+patching file drivers/acpi/nfit/core.c
+patching file drivers/base/dd.c
+Hunk #1 succeeded at 941 (offset 10 lines).
+Hunk #2 succeeded at 958 (offset 10 lines).
+patching file drivers/crypto/chelsio/chtls/chtls_cm.c
+patching file drivers/crypto/chelsio/chtls/chtls_hw.c
+patching file drivers/gpu/drm/i915/i915_gpu_error.c
+patching file drivers/gpu/drm/vc4/vc4_drv.c
+patching file drivers/net/ethernet/cadence/macb_main.c
+patching file drivers/net/ethernet/freescale/gianfar.c
+patching file drivers/net/phy/sfp.c
+patching file drivers/net/usb/qmi_wwan.c
+patching file drivers/of/of_reserved_mem.c
+patching file drivers/scsi/scsi_scan.c
+patching file drivers/tty/serial/8250/8250_mtk.c
+Hunk #1 succeeded at 398 (offset 351 lines).
+patching file drivers/tty/serial/serial_txx9.c
+patching file drivers/tty/vt/vt.c
+patching file drivers/usb/core/quirks.c
+patching file drivers/usb/mtu3/mtu3_gadget.c
+Hunk #1 succeeded at 584 (offset 11 lines).
+patching file drivers/usb/serial/cyberjack.c
+patching file drivers/usb/serial/option.c
+patching file fs/btrfs/ctree.h
+patching file fs/btrfs/extent_io.c
+patching file fs/btrfs/tree-checker.c
+patching file fs/btrfs/tree-checker.h
+patching file fs/btrfs/volumes.c
+patching file fs/btrfs/volumes.h
+patching file fs/gfs2/glock.c
+patching file include/asm-generic/pgtable.h
+patching file include/linux/mm.h
+Hunk #1 succeeded at 2785 (offset 224 lines).
+patching file include/net/dsa.h
+patching file kernel/events/core.c
+Hunk #1 succeeded at 9094 (offset 47 lines).
+Hunk #2 succeeded at 9141 (offset 47 lines).
+Hunk #3 succeeded at 9167 (offset 47 lines).
+patching file kernel/fork.c
+Hunk #1 succeeded at 2200 (offset 235 lines).
+Hunk #2 succeeded at 2247 (offset 235 lines).
+patching file kernel/futex.c
+Hunk #1 succeeded at 2443 (offset 26 lines).
+patching file kernel/kthread.c
+Hunk #1 succeeded at 860 (offset -3 lines).
+patching file kernel/signal.c
+Hunk #1 succeeded at 391 (offset 6 lines).
+patching file kernel/trace/blktrace.c
+patching file kernel/trace/ring_buffer.c
+patching file kernel/trace/trace.c
+Hunk #1 succeeded at 2847 (offset 28 lines).
+patching file kernel/trace/trace.h
+patching file kernel/trace/trace_selftest.c
+patching file lib/crc32test.c
+patching file lib/fonts/font_10x18.c
+patching file lib/fonts/font_6x10.c
+patching file lib/fonts/font_6x11.c
+patching file lib/fonts/font_7x14.c
+patching file lib/fonts/font_8x16.c
+patching file lib/fonts/font_8x8.c
+patching file lib/fonts/font_acorn_8x8.c
+patching file lib/fonts/font_mini_4x6.c
+patching file lib/fonts/font_pearl_8x8.c
+patching file lib/fonts/font_sun12x22.c
+patching file lib/fonts/font_sun8x16.c
+patching file mm/mempolicy.c
+Hunk #1 succeeded at 499 (offset 3 lines).
+Hunk #2 succeeded at 513 (offset 3 lines).
+Hunk #3 succeeded at 545 (offset 3 lines).
+patching file net/dsa/dsa2.c
+patching file net/dsa/slave.c
+patching file net/sctp/sm_sideeffect.c
+patching file net/tipc/core.c
+patching file net/vmw_vsock/af_vsock.c
+patching file sound/usb/pcm.c
+Hunk #1 succeeded at 422 (offset 88 lines).
+Hunk #2 succeeded at 432 (offset 88 lines).
+Hunk #3 succeeded at 440 (offset 88 lines).
+patching file sound/usb/quirks.c
+patching file tools/perf/util/util.h
