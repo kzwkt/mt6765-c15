@@ -1,0 +1,13 @@
+#!/bin/bash
+
+start=$1
+end=$2
+
+if [[ -z "$start" || -z "$end" ]]; then
+  echo "Usage: looper <start> <end>"
+  exit 1
+fi
+
+for ((i=start; i<=end; i++)); do
+ ./patcher "$i"
+done
