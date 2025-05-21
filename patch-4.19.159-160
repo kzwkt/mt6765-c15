@@ -1,0 +1,110 @@
+2025-05-21 18:34:34 (6.44 MB/s) - ‘patch-4.19.159-160.xz’ saved [24900/24900]
+
+patching file Makefile
+patching file arch/arm/boot/dts/imx50-evk.dts
+patching file arch/arm/boot/dts/imx6qdl-udoo.dtsi
+patching file arch/arm/boot/dts/sun8i-a83t-bananapi-m3.dts
+patching file arch/arm/boot/dts/sun8i-a83t-cubietruck-plus.dts
+patching file arch/arm/boot/dts/sun8i-h3-orangepi-pc-plus.dts
+patching file arch/arm/boot/dts/sun8i-h3-orangepi-plus2e.dts
+patching file arch/arm/boot/dts/sun8i-r40-bananapi-m2-ultra.dts
+patching file arch/arm64/boot/dts/allwinner/sun50i-a64-bananapi-m64.dts
+patching file arch/arm64/boot/dts/allwinner/sun50i-a64-pine64-plus.dts
+patching file arch/arm64/boot/dts/allwinner/sun50i-h5-orangepi-pc2.dts
+patching file arch/arm64/boot/dts/allwinner/sun50i-h5-orangepi-prime.dts
+patching file arch/arm64/kernel/psci.c
+Hunk #1 succeeded at 70 (offset 1 line).
+Hunk #2 succeeded at 77 (offset 1 line).
+patching file arch/mips/alchemy/common/clock.c
+patching file arch/mips/mm/tlb-r4k.c
+patching file arch/s390/kernel/perf_cpum_sf.c
+patching file arch/x86/kernel/cpu/microcode/intel.c
+patching file arch/x86/platform/efi/efi_64.c
+patching file arch/xtensa/mm/cache.c
+patching file drivers/acpi/button.c
+patching file drivers/atm/nicstar.c
+patching file drivers/gpu/drm/sun4i/sun8i_dw_hdmi.c
+patching file drivers/iio/accel/kxcjk-1013.c
+patching file drivers/input/misc/adxl34x.c
+patching file drivers/input/touchscreen/Kconfig
+patching file drivers/net/can/dev.c
+patching file drivers/net/can/m_can/m_can.c
+patching file drivers/net/can/ti_hecc.c
+patching file drivers/net/can/usb/kvaser_usb/kvaser_usb_hydra.c
+patching file drivers/net/can/usb/mcba_usb.c
+patching file drivers/net/can/usb/peak_usb/pcan_usb_core.c
+patching file drivers/net/dsa/mv88e6xxx/global1_vtu.c
+patching file drivers/net/ethernet/broadcom/b44.c
+patching file drivers/net/ethernet/broadcom/bnxt/bnxt_ethtool.c
+patching file drivers/net/ethernet/faraday/ftgmac100.c
+patching file drivers/net/ethernet/mellanox/mlx4/fw.c
+patching file drivers/net/ethernet/mellanox/mlx4/fw.h
+patching file drivers/net/ethernet/mellanox/mlx5/core/eswitch.c
+patching file drivers/net/ethernet/mellanox/mlxsw/core.c
+patching file drivers/net/ethernet/microchip/lan743x_main.c
+patching file drivers/net/ethernet/qlogic/qed/qed_iwarp.c
+patching file drivers/net/ethernet/qlogic/qlcnic/qlcnic_83xx_init.c
+patching file drivers/net/ethernet/qualcomm/rmnet/rmnet_handlers.c
+patching file drivers/net/geneve.c
+patching file drivers/net/usb/qmi_wwan.c
+patching file drivers/pinctrl/pinctrl-rockchip.c
+patching file drivers/regulator/core.c
+Hunk #1 succeeded at 1134 (offset 43 lines).
+Hunk #2 succeeded at 1141 (offset 43 lines).
+Hunk #3 succeeded at 1638 (offset 43 lines).
+Hunk #4 succeeded at 4288 (offset 33 lines).
+Hunk #5 succeeded at 4388 (offset 33 lines).
+Hunk #6 succeeded at 4413 (offset 33 lines).
+patching file drivers/regulator/pfuze100-regulator.c
+patching file drivers/regulator/ti-abb-regulator.c
+patching file drivers/s390/block/dasd.c
+patching file drivers/scsi/ufs/ufshcd.c
+Hunk #1 succeeded at 1668 with fuzz 2 (offset 76 lines).
+patching file drivers/staging/rtl8723bs/os_dep/sdio_intf.c
+patching file drivers/staging/speakup/spk_ttyio.c
+patching file drivers/tty/serial/imx.c
+patching file fs/efivarfs/super.c
+patching file fs/ext4/ext4.h
+Hunk #1 succeeded at 2476 (offset 49 lines).
+patching file fs/libfs.c
+Hunk #1 succeeded at 870 (offset 2 lines).
+Hunk #2 succeeded at 888 (offset 2 lines).
+patching file fs/super.c
+Hunk #1 succeeded at 1380 (offset 20 lines).
+patching file fs/xfs/libxfs/xfs_rmap_btree.c
+patching file fs/xfs/scrub/bmap.c
+patching file fs/xfs/scrub/btree.c
+patching file include/net/ip_tunnels.h
+patching file kernel/fail_function.c
+patching file kernel/ptrace.c
+patching file kernel/seccomp.c
+patching file mm/huge_memory.c
+patching file mm/page_alloc.c
+Hunk #1 succeeded at 4890 (offset 336 lines).
+patching file net/bridge/br_device.c
+patching file net/can/af_can.c
+patching file net/core/devlink.c
+patching file net/core/netpoll.c
+patching file net/ipv4/inet_diag.c
+patching file net/ipv4/tcp_bbr.c
+patching file net/ipv6/ah6.c
+patching file net/mac80211/rc80211_minstrel.c
+patching file net/mac80211/rc80211_minstrel.h
+patching file net/mac80211/sta_info.c
+patching file net/ncsi/ncsi-manage.c
+patching file net/ncsi/ncsi-netlink.c
+patching file net/ncsi/ncsi-netlink.h
+patching file net/netlabel/netlabel_unlabeled.c
+patching file net/sctp/input.c
+patching file net/sctp/sm_sideeffect.c
+patching file net/sctp/transport.c
+patching file net/x25/af_x25.c
+patching file sound/core/control.c
+patching file sound/firewire/fireworks/fireworks_transaction.c
+patching file sound/pci/hda/patch_realtek.c
+patching file sound/pci/mixart/mixart_core.c
+patching file sound/soc/qcom/lpass-platform.c
+patching file sound/usb/quirks.c
+patching file tools/perf/builtin-lock.c
+patching file tools/testing/selftests/kvm/include/x86.h
+patching file tools/testing/selftests/kvm/lib/x86.c
