@@ -1,0 +1,72 @@
+patching file Makefile
+patching file arch/mips/Kconfig
+Hunk #1 succeeded at 854 (offset 2 lines).
+patching file arch/mips/kvm/mips.c
+patching file arch/mips/sni/a20r.c
+patching file arch/openrisc/mm/cache.c
+patching file arch/powerpc/kernel/dma-iommu.c
+patching file arch/x86/boot/compressed/Makefile
+patching file arch/x86/configs/i386_defconfig
+patching file arch/x86/configs/x86_64_defconfig
+patching file drivers/clk/davinci/pll.c
+patching file drivers/clk/rockchip/clk-rk3228.c
+patching file drivers/gpu/drm/mediatek/mtk_drm_drv.c
+Hunk #1 succeeded at 602 (offset 2 lines).
+patching file drivers/gpu/drm/mediatek/mtk_hdmi.c
+patching file drivers/hv/channel_mgmt.c
+patching file drivers/i2c/algos/i2c-algo-pca.c
+patching file drivers/i2c/busses/i2c-i801.c
+patching file drivers/infiniband/hw/bnxt_re/qplib_sp.c
+patching file drivers/infiniband/hw/bnxt_re/qplib_sp.h
+patching file drivers/input/mouse/trackpoint.c
+patching file drivers/input/mouse/trackpoint.h
+patching file drivers/input/serio/i8042-x86ia64io.h
+patching file drivers/net/hyperv/netvsc_drv.c
+patching file drivers/nvme/host/fc.c
+patching file drivers/nvme/host/rdma.c
+patching file drivers/rapidio/Kconfig
+patching file drivers/regulator/pwm-regulator.c
+patching file drivers/scsi/libfc/fc_disc.c
+patching file drivers/scsi/lpfc/lpfc_els.c
+patching file drivers/scsi/pm8001/pm8001_sas.c
+patching file drivers/scsi/qla2xxx/qla_def.h
+patching file drivers/scsi/qla2xxx/qla_gbl.h
+patching file drivers/scsi/qla2xxx/qla_gs.c
+patching file drivers/scsi/qla2xxx/qla_init.c
+patching file drivers/scsi/qla2xxx/qla_os.c
+patching file drivers/scsi/qla2xxx/qla_target.c
+patching file drivers/spi/spi-loopback-test.c
+patching file drivers/spi/spi.c
+Hunk #1 succeeded at 1118 (offset 2 lines).
+Hunk #2 succeeded at 1375 (offset 2 lines).
+patching file drivers/tty/serial/8250/8250_pci.c
+patching file drivers/usb/class/usblp.c
+patching file drivers/usb/core/quirks.c
+patching file drivers/usb/host/ehci-hcd.c
+patching file drivers/usb/host/ehci-hub.c
+patching file drivers/usb/storage/uas.c
+patching file drivers/video/fbdev/core/fbcon.c
+patching file fs/f2fs/data.c
+Hunk #1 succeeded at 3508 (offset 1018 lines).
+patching file fs/f2fs/node.c
+Hunk #1 succeeded at 2317 (offset 60 lines).
+patching file fs/gfs2/glops.c
+patching file fs/gfs2/log.c
+patching file fs/gfs2/trans.c
+patching file fs/nfs/nfs4proc.c
+patching file include/linux/i2c-algo-pca.h
+patching file include/uapi/linux/kvm.h
+patching file mm/percpu.c
+patching file net/core/skbuff.c
+Hunk #1 succeeded at 5617 (offset 96 lines).
+patching file net/dsa/tag_edsa.c
+patching file net/sunrpc/rpcb_clnt.c
+patching file sound/pci/hda/patch_realtek.c
+patching file sound/soc/qcom/apq8016_sbc.c
+patching file sound/soc/qcom/apq8096.c
+patching file sound/soc/qcom/sdm845.c
+patching file sound/soc/qcom/storm.c
+patching file tools/perf/tests/bp_signal.c
+patching file tools/perf/tests/pmu.c
+patching file tools/perf/util/pmu.c
+patching file tools/perf/util/pmu.h
