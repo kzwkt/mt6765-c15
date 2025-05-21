@@ -1,0 +1,4 @@
+2025-05-21 18:22:37 (10.7 MB/s) - ‘patch-4.19.156-157.xz’ saved [512/512]
+
+patching file Makefile
+patching file drivers/powercap/powercap_sys.c
