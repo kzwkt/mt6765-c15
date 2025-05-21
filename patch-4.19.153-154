@@ -1,0 +1,146 @@
+2025-05-21 17:41:50 (8.12 MB/s) - ‘patch-4.19.153-154.xz’ saved [32000/32000]
+
+patching file Makefile
+patching file arch/arm/boot/dts/imx6sl.dtsi
+patching file arch/arm/boot/dts/owl-s500.dtsi
+patching file arch/arm/boot/dts/sun8i-r40-bananapi-m2-ultra.dts
+patching file arch/arm64/boot/dts/qcom/msm8916.dtsi
+patching file arch/arm64/boot/dts/qcom/pm8916.dtsi
+patching file arch/arm64/boot/dts/xilinx/zynqmp.dtsi
+patching file arch/powerpc/include/asm/tlb.h
+patching file arch/powerpc/kernel/tau_6xx.c
+patching file arch/powerpc/mm/tlb-radix.c
+patching file arch/powerpc/perf/hv-gpci-requests.h
+patching file arch/powerpc/perf/isa207-common.c
+patching file arch/powerpc/platforms/Kconfig
+patching file arch/powerpc/platforms/powernv/opal-dump.c
+patching file arch/x86/kvm/emulate.c
+patching file block/blk-core.c
+Hunk #1 succeeded at 2157 (offset 30 lines).
+patching file drivers/clk/at91/clk-main.c
+patching file drivers/clk/bcm/clk-bcm2835.c
+patching file drivers/clk/rockchip/clk-half-divider.c
+patching file drivers/cpufreq/powernv-cpufreq.c
+patching file drivers/crypto/ccp/ccp-ops.c
+patching file drivers/gpu/drm/virtio/virtgpu_kms.c
+Hunk #1 succeeded at 94 (offset -19 lines).
+patching file drivers/gpu/drm/virtio/virtgpu_vq.c
+Hunk #1 succeeded at 571 (offset 5 lines).
+patching file drivers/i2c/busses/Kconfig
+Hunk #1 succeeded at 1126 (offset 9 lines).
+patching file drivers/i2c/i2c-core-acpi.c
+patching file drivers/infiniband/core/cma.c
+patching file drivers/infiniband/hw/hns/hns_roce_hw_v1.c
+patching file drivers/infiniband/hw/hns/hns_roce_hw_v2.c
+patching file drivers/infiniband/sw/rdmavt/vt.c
+patching file drivers/input/keyboard/ep93xx_keypad.c
+patching file drivers/input/keyboard/omap4-keypad.c
+patching file drivers/input/keyboard/twl4030_keypad.c
+patching file drivers/input/serio/sun4i-ps2.c
+patching file drivers/input/touchscreen/imx6ul_tsc.c
+patching file drivers/input/touchscreen/stmfts.c
+patching file drivers/mailbox/mailbox.c
+Hunk #1 succeeded at 103 with fuzz 2 (offset 18 lines).
+Hunk #2 succeeded at 146 (offset 18 lines).
+patching file drivers/media/firewire/firedtv-fw.c
+patching file drivers/media/pci/bt8xx/bttv-driver.c
+patching file drivers/media/pci/saa7134/saa7134-tvaudio.c
+patching file drivers/media/platform/exynos4-is/fimc-isp.c
+patching file drivers/media/platform/exynos4-is/fimc-lite.c
+patching file drivers/media/platform/exynos4-is/media-dev.c
+patching file drivers/media/platform/exynos4-is/mipi-csis.c
+patching file drivers/media/platform/qcom/venus/core.c
+patching file drivers/media/platform/s3c-camif/camif-core.c
+patching file drivers/media/platform/sti/bdisp/bdisp-v4l2.c
+patching file drivers/media/platform/sti/delta/delta-v4l2.c
+patching file drivers/media/platform/sti/hva/hva-hw.c
+patching file drivers/media/platform/vsp1/vsp1_drv.c
+patching file drivers/media/rc/ati_remote.c
+patching file drivers/media/usb/uvc/uvc_v4l2.c
+patching file drivers/memory/fsl-corenet-cf.c
+patching file drivers/memory/omap-gpmc.c
+patching file drivers/misc/cardreader/rtsx_pcr.c
+patching file drivers/misc/eeprom/at25.c
+patching file drivers/misc/mic/vop/vop_main.c
+patching file drivers/misc/mic/vop/vop_vringh.c
+patching file drivers/mmc/core/sdio_cis.c
+patching file drivers/net/can/flexcan.c
+patching file drivers/net/ethernet/korina.c
+patching file drivers/net/wireless/ath/ath10k/htt_rx.c
+patching file drivers/net/wireless/ath/ath9k/hif_usb.c
+patching file drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c
+patching file drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phy_lcn.c
+patching file drivers/net/wireless/marvell/mwifiex/usb.c
+patching file drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c
+patching file drivers/ntb/hw/amd/ntb_hw_amd.c
+patching file drivers/nvme/target/core.c
+patching file drivers/pci/controller/pcie-iproc-msi.c
+patching file drivers/pwm/pwm-img.c
+patching file drivers/rapidio/devices/rio_mport_cdev.c
+patching file drivers/rpmsg/qcom_smd.c
+patching file drivers/scsi/ibmvscsi/ibmvfc.c
+patching file drivers/scsi/mvumi.c
+patching file drivers/scsi/qedi/qedi_fw.c
+patching file drivers/scsi/qedi/qedi_iscsi.c
+patching file drivers/scsi/ufs/ufs-qcom.c
+Hunk #1 succeeded at 1488 (offset -93 lines).
+Hunk #2 succeeded at 1500 (offset -93 lines).
+patching file drivers/tty/ipwireless/network.c
+patching file drivers/tty/ipwireless/tty.c
+patching file drivers/tty/serial/fsl_lpuart.c
+patching file drivers/usb/class/cdc-acm.c
+patching file drivers/usb/class/cdc-wdm.c
+patching file drivers/usb/core/urb.c
+patching file drivers/usb/dwc3/dwc3-of-simple.c
+patching file drivers/usb/gadget/function/f_ncm.c
+patching file drivers/usb/gadget/function/f_printer.c
+patching file drivers/usb/host/ohci-hcd.c
+patching file drivers/vfio/pci/vfio_pci_intrs.c
+patching file drivers/vfio/vfio_iommu_type1.c
+Hunk #1 succeeded at 639 (offset 3 lines).
+patching file drivers/watchdog/sp5100_tco.h
+patching file drivers/watchdog/watchdog_dev.c
+Hunk #1 succeeded at 950 (offset 6 lines).
+Hunk #2 succeeded at 979 (offset 6 lines).
+patching file fs/dlm/config.c
+patching file fs/ext4/fsmap.c
+patching file fs/f2fs/sysfs.c
+Hunk #1 succeeded at 944 (offset 227 lines).
+patching file fs/ntfs/inode.c
+patching file fs/ramfs/file-nommu.c
+patching file fs/reiserfs/inode.c
+patching file fs/reiserfs/super.c
+patching file fs/udf/inode.c
+patching file fs/udf/super.c
+patching file fs/xfs/xfs_rtalloc.c
+patching file include/linux/overflow.h
+patching file include/scsi/scsi_common.h
+patching file include/trace/events/target.h
+patching file include/uapi/linux/perf_event.h
+patching file kernel/debug/kdb/kdb_io.c
+patching file kernel/power/hibernate.c
+patching file kernel/sched/core.c
+Hunk #1 succeeded at 37 (offset 13 lines).
+patching file kernel/sched/sched.h
+Hunk #1 succeeded at 1601 (offset 240 lines).
+Hunk #2 succeeded at 1609 (offset 240 lines).
+Hunk #3 succeeded at 1622 (offset 240 lines).
+Hunk #4 succeeded at 1644 (offset 240 lines).
+patching file lib/crc32.c
+Hunk #1 succeeded at 331 (offset 3 lines).
+patching file net/bluetooth/l2cap_sock.c
+patching file net/ipv4/ip_gre.c
+Hunk #1 succeeded at 682 (offset 2 lines).
+Hunk #2 succeeded at 800 (offset 2 lines).
+Hunk #3 succeeded at 1007 (offset 2 lines).
+Hunk #4 succeeded at 1051 (offset 2 lines).
+patching file net/mac80211/cfg.c
+patching file net/mac80211/sta_info.c
+patching file net/netfilter/ipvs/ip_vs_ctl.c
+patching file net/netfilter/nf_conntrack_proto_tcp.c
+patching file net/netfilter/nf_dup_netdev.c
+patching file net/netfilter/nft_fwd_netdev.c
+patching file net/sunrpc/auth_gss/svcauth_gss.c
+patching file net/sunrpc/xprtrdma/svc_rdma_sendto.c
+patching file samples/mic/mpssd/mpssd.c
+patching file tools/perf/util/intel-pt.c
