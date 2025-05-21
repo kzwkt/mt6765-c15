@@ -1,0 +1,145 @@
+2025-05-21 18:23:35 (7.65 MB/s) - ‘patch-4.19.157-158.xz’ saved [33196/33196]
+
+patching file Makefile
+patching file arch/arm/include/asm/kprobes.h
+patching file arch/arm/probes/kprobes/opt-arm.c
+patching file arch/arm64/crypto/aes-modes.S
+patching file arch/s390/kernel/smp.c
+patching file arch/x86/kernel/cpu/bugs.c
+patching file drivers/block/nbd.c
+patching file drivers/char/random.c
+Hunk #1 succeeded at 1249 (offset -8 lines).
+patching file drivers/char/tpm/eventlog/efi.c
+patching file drivers/char/tpm/tpm_tis.c
+patching file drivers/gpio/gpio-pcie-idio-24.c
+patching file drivers/gpu/drm/amd/amdgpu/cik_sdma.c
+patching file drivers/gpu/drm/amd/powerplay/hwmgr/smu7_hwmgr.c
+patching file drivers/gpu/drm/amd/powerplay/inc/hwmgr.h
+patching file drivers/gpu/drm/amd/powerplay/inc/smumgr.h
+patching file drivers/gpu/drm/amd/powerplay/smumgr/ci_smumgr.c
+patching file drivers/gpu/drm/amd/powerplay/smumgr/smumgr.c
+patching file drivers/gpu/drm/gma500/psb_irq.c
+patching file drivers/hv/hv_balloon.c
+patching file drivers/iommu/amd_iommu_types.h
+patching file drivers/mfd/sprd-sc27xx-spi.c
+patching file drivers/misc/mei/client.h
+patching file drivers/mmc/host/renesas_sdhi_core.c
+patching file drivers/net/can/dev.c
+patching file drivers/net/can/flexcan.c
+patching file drivers/net/can/peak_canfd/peak_canfd.c
+patching file drivers/net/can/rx-offload.c
+patching file drivers/net/can/usb/peak_usb/pcan_usb_core.c
+patching file drivers/net/can/usb/peak_usb/pcan_usb_fd.c
+patching file drivers/net/ethernet/microchip/lan743x_main.c
+patching file drivers/net/ethernet/microchip/lan743x_main.h
+patching file drivers/net/ethernet/realtek/r8169.c
+patching file drivers/net/vrf.c
+patching file drivers/net/wan/cosa.c
+patching file drivers/net/wireless/ath/ath9k/htc_drv_txrx.c
+patching file drivers/of/address.c
+patching file drivers/pinctrl/aspeed/pinctrl-aspeed.c
+patching file drivers/pinctrl/intel/pinctrl-intel.c
+patching file drivers/pinctrl/pinctrl-amd.c
+patching file drivers/regulator/core.c
+Hunk #1 succeeded at 3438 (offset 33 lines).
+patching file drivers/scsi/device_handler/scsi_dh_alua.c
+patching file drivers/scsi/hpsa.c
+patching file drivers/staging/erofs/inode.c
+patching file drivers/thunderbolt/nhi.c
+patching file drivers/thunderbolt/xdomain.c
+patching file drivers/uio/uio.c
+patching file drivers/usb/class/cdc-acm.c
+patching file drivers/usb/dwc3/gadget.c
+patching file drivers/usb/gadget/udc/goku_udc.c
+patching file drivers/usb/host/xhci-histb.c
+patching file drivers/vfio/platform/vfio_platform_common.c
+patching file fs/btrfs/dev-replace.c
+patching file fs/btrfs/extent_io.c
+patching file fs/btrfs/ioctl.c
+patching file fs/btrfs/ref-verify.c
+patching file fs/btrfs/volumes.c
+patching file fs/cifs/cifs_unicode.c
+patching file fs/ext4/inline.c
+Hunk #1 succeeded at 1935 (offset 14 lines).
+patching file fs/ext4/super.c
+Hunk #1 succeeded at 1781 (offset 33 lines).
+patching file fs/gfs2/rgrp.c
+patching file fs/gfs2/super.c
+patching file fs/ocfs2/super.c
+patching file fs/xfs/libxfs/xfs_alloc.c
+patching file fs/xfs/libxfs/xfs_bmap.h
+patching file fs/xfs/libxfs/xfs_rmap.c
+patching file fs/xfs/libxfs/xfs_rmap_btree.c
+patching file fs/xfs/scrub/bmap.c
+patching file fs/xfs/scrub/inode.c
+patching file fs/xfs/scrub/refcount.c
+patching file fs/xfs/xfs_iops.c
+patching file fs/xfs/xfs_pnfs.c
+patching file include/linux/can/skb.h
+patching file include/linux/netfilter_ipv4.h
+patching file include/linux/netfilter_ipv6.h
+can't find file to patch at input line 2327
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/include/linux/prandom.h b/include/linux/prandom.h
+|index aa16e6468f91e..cc1e71334e53c 100644
+|--- a/include/linux/prandom.h
+|+++ b/include/linux/prandom.h
+--------------------------
+File to patch: 
+Skip this patch? [y] 
+Skipping patch.
+1 out of 1 hunk ignored
+patching file include/linux/time64.h
+Hunk #1 succeeded at 130 (offset -8 lines).
+patching file kernel/dma/swiotlb.c
+patching file kernel/events/core.c
+Hunk #1 succeeded at 5487 (offset 12 lines).
+Hunk #2 succeeded at 5522 (offset 12 lines).
+Hunk #3 succeeded at 5532 (offset 12 lines).
+patching file kernel/events/internal.h
+patching file kernel/exit.c
+Hunk #1 succeeded at 549 (offset 32 lines).
+patching file kernel/futex.c
+Hunk #1 succeeded at 867 (offset 11 lines).
+Hunk #2 succeeded at 877 (offset 11 lines).
+patching file kernel/irq/Kconfig
+patching file kernel/reboot.c
+Hunk #1 FAILED at 539.
+1 out of 1 hunk FAILED -- saving rejects to file kernel/reboot.c.rej
+patching file kernel/time/itimer.c
+patching file kernel/time/tick-common.c
+patching file kernel/time/timer.c
+Hunk #1 succeeded at 1658 (offset 3 lines).
+patching file lib/random32.c
+patching file net/ipv4/netfilter.c
+patching file net/ipv4/netfilter/ipt_SYNPROXY.c
+patching file net/ipv4/netfilter/iptable_mangle.c
+patching file net/ipv4/netfilter/nf_nat_l3proto_ipv4.c
+patching file net/ipv4/netfilter/nf_reject_ipv4.c
+patching file net/ipv4/netfilter/nft_chain_route_ipv4.c
+patching file net/ipv4/syncookies.c
+patching file net/ipv6/netfilter.c
+patching file net/ipv6/netfilter/ip6table_mangle.c
+patching file net/ipv6/netfilter/nf_nat_l3proto_ipv6.c
+patching file net/ipv6/netfilter/nft_chain_route_ipv6.c
+patching file net/ipv6/sit.c
+patching file net/ipv6/syncookies.c
+patching file net/iucv/af_iucv.c
+patching file net/mac80211/tx.c
+patching file net/netfilter/ipset/ip_set_core.c
+patching file net/netfilter/ipvs/ip_vs_core.c
+patching file net/sched/sch_generic.c
+Hunk #1 succeeded at 1127 (offset 11 lines).
+patching file net/tipc/topsrv.c
+patching file net/wireless/reg.c
+patching file net/x25/af_x25.c
+patching file net/xfrm/xfrm_state.c
+patching file security/selinux/ibpkey.c
+patching file sound/hda/ext/hdac_ext_controller.c
+patching file tools/perf/util/scripting-engines/trace-event-python.c
+patching file tools/perf/util/session.c
+patching file tools/testing/selftests/proc/proc-loadavg-001.c
+patching file tools/testing/selftests/proc/proc-self-syscall.c
+patching file tools/testing/selftests/proc/proc-uptime-002.c
