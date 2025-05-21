@@ -1,0 +1,12 @@
+patching file Makefile
+patching file block/blk-core.c
+Hunk #1 succeeded at 1057 (offset 21 lines).
+patching file drivers/net/ethernet/mellanox/mlx5/core/en_rep.c
+patching file drivers/net/usb/dm9601.c
+patching file net/core/dev.c
+Hunk #1 succeeded at 6218 (offset 22 lines).
+patching file net/core/netpoll.c
+patching file net/netlabel/netlabel_domainhash.c
+patching file net/sctp/socket.c
+patching file net/tipc/socket.c
+patching file sound/firewire/tascam/tascam.c
