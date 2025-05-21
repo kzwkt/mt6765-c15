@@ -1,0 +1,202 @@
+2025-05-21 17:29:33 (1.28 MB/s) - ‘patch-4.19.152-153.xz’ saved [38944/38944]
+
+unxz: patch-4.19.152-153: File exists
+patching file Documentation/admin-guide/kernel-parameters.txt
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 558.
+1 out of 1 hunk FAILED -- saving rejects to file Documentation/admin-guide/kernel-parameters.txt.rej
+patching file Documentation/networking/ip-sysctl.txt
+Reversed (or previously applied) patch detected!  Assume -R? [n] n
+Apply anyway? [n] y
+Hunk #1 FAILED at 934.
+1 out of 1 hunk FAILED -- saving rejects to file Documentation/networking/ip-sysctl.txt.rej
+patching file Makefile
+patching file arch/arc/plat-hsdk/Kconfig
+patching file arch/arm/mm/cache-l2x0.c
+patching file arch/powerpc/include/asm/drmem.h
+patching file arch/powerpc/include/asm/reg.h
+patching file arch/powerpc/kernel/tau_6xx.c
+patching file arch/powerpc/platforms/pseries/rng.c
+patching file arch/powerpc/sysdev/xics/icp-hv.c
+patching file arch/x86/events/amd/iommu.c
+patching file arch/x86/kernel/fpu/init.c
+patching file arch/x86/kernel/nmi.c
+patching file arch/x86/kvm/mmu.c
+patching file arch/x86/kvm/svm.c
+patching file crypto/algif_aead.c
+patching file crypto/algif_skcipher.c
+patching file drivers/android/binder.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 285.
+Hunk #2 FAILED at 895.
+Hunk #3 FAILED at 4242.
+Hunk #4 FAILED at 4282.
+4 out of 4 hunks FAILED -- saving rejects to file drivers/android/binder.c.rej
+patching file drivers/bluetooth/hci_ldisc.c
+patching file drivers/bluetooth/hci_serdev.c
+patching file drivers/cpufreq/armada-37xx-cpufreq.c
+patching file drivers/crypto/chelsio/chtls/chtls_cm.c
+patching file drivers/crypto/chelsio/chtls/chtls_io.c
+patching file drivers/crypto/ixp4xx_crypto.c
+patching file drivers/crypto/mediatek/mtk-platform.c
+patching file drivers/crypto/omap-sham.c
+patching file drivers/crypto/picoxcell_crypto.c
+patching file drivers/edac/i5100_edac.c
+patching file drivers/edac/ti_edac.c
+patching file drivers/gpu/drm/gma500/cdv_intel_dp.c
+patching file drivers/hid/hid-input.c
+patching file drivers/hid/hid-roccat-kone.c
+patching file drivers/hwmon/pmbus/max34440.c
+patching file drivers/infiniband/core/ucma.c
+patching file drivers/infiniband/hw/mlx4/cm.c
+patching file drivers/infiniband/hw/mlx4/mad.c
+patching file drivers/infiniband/hw/mlx4/mlx4_ib.h
+patching file drivers/infiniband/hw/qedr/main.c
+patching file drivers/infiniband/hw/qedr/verbs.c
+patching file drivers/media/i2c/m5mols/m5mols_core.c
+patching file drivers/media/i2c/tc358743.c
+patching file drivers/media/platform/exynos4-is/media-dev.c
+patching file drivers/media/platform/mx2_emmaprp.c
+patching file drivers/media/platform/omap3isp/isp.c
+patching file drivers/media/platform/qcom/camss/camss-csiphy.c
+patching file drivers/media/platform/rcar-fcp.c
+patching file drivers/media/platform/rcar-vin/rcar-dma.c
+patching file drivers/media/platform/rockchip/rga/rga-buf.c
+patching file drivers/media/platform/s5p-mfc/s5p_mfc_pm.c
+patching file drivers/media/platform/stm32/stm32-dcmi.c
+patching file drivers/media/platform/ti-vpe/vpe.c
+patching file drivers/media/tuners/tuner-simple.c
+patching file drivers/media/usb/uvc/uvc_ctrl.c
+patching file drivers/media/usb/uvc/uvc_entity.c
+patching file drivers/mfd/sm501.c
+patching file drivers/misc/mic/scif/scif_rma.c
+patching file drivers/misc/vmw_vmci/vmci_queue_pair.c
+patching file drivers/mtd/lpddr/lpddr2_nvm.c
+patching file drivers/mtd/mtdoops.c
+patching file drivers/net/dsa/realtek-smi.h
+patching file drivers/net/dsa/rtl8366.c
+patching file drivers/net/dsa/rtl8366rb.c
+patching file drivers/net/ethernet/cisco/enic/enic.h
+patching file drivers/net/ethernet/cisco/enic/enic_api.c
+patching file drivers/net/ethernet/cisco/enic/enic_main.c
+patching file drivers/net/ethernet/freescale/fec_main.c
+patching file drivers/net/ethernet/ibm/ibmveth.c
+patching file drivers/net/ethernet/korina.c
+patching file drivers/net/ethernet/mellanox/mlx4/en_rx.c
+patching file drivers/net/ethernet/mellanox/mlx4/en_tx.c
+patching file drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c
+patching file drivers/net/ethernet/realtek/r8169.c
+patching file drivers/net/ethernet/stmicro/stmmac/stmmac_main.c
+Hunk #1 succeeded at 183 (offset 6 lines).
+Hunk #2 succeeded at 2676 (offset 24 lines).
+Hunk #3 succeeded at 2722 (offset 24 lines).
+Hunk #4 succeeded at 4499 (offset 8 lines).
+Hunk #5 succeeded at 4607 (offset 8 lines).
+patching file drivers/net/usb/qmi_wwan.c
+patching file drivers/net/wan/hdlc.c
+patching file drivers/net/wan/hdlc_raw_eth.c
+patching file drivers/net/wireless/ath/ath10k/ce.c
+patching file drivers/net/wireless/ath/ath10k/mac.c
+patching file drivers/net/wireless/ath/ath6kl/main.c
+patching file drivers/net/wireless/ath/ath6kl/wmi.c
+patching file drivers/net/wireless/ath/ath9k/htc_hst.c
+patching file drivers/net/wireless/ath/wcn36xx/main.c
+patching file drivers/net/wireless/broadcom/brcm80211/brcmfmac/core.c
+patching file drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c
+patching file drivers/net/wireless/marvell/mwifiex/scan.c
+patching file drivers/net/wireless/marvell/mwifiex/sdio.c
+patching file drivers/net/wireless/quantenna/qtnfmac/commands.c
+patching file drivers/perf/xgene_pmu.c
+patching file drivers/pinctrl/bcm/Kconfig
+patching file drivers/pinctrl/pinctrl-mcp23s08.c
+patching file drivers/platform/x86/mlx-platform.c
+patching file drivers/pwm/pwm-lpss.c
+patching file drivers/regulator/core.c
+Hunk #1 succeeded at 4396 (offset 33 lines).
+patching file drivers/scsi/be2iscsi/be_main.c
+patching file drivers/scsi/csiostor/csio_hw.c
+patching file drivers/scsi/qla2xxx/qla_nvme.c
+patching file drivers/scsi/qla4xxx/ql4_os.c
+patching file drivers/slimbus/core.c
+patching file drivers/slimbus/qcom-ngd-ctrl.c
+patching file drivers/spi/spi-s3c64xx.c
+patching file drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c
+patching file drivers/target/target_core_user.c
+patching file drivers/tty/hvc/hvcs.c
+patching file drivers/tty/pty.c
+patching file drivers/tty/serial/Kconfig
+patching file drivers/usb/dwc2/gadget.c
+patching file drivers/usb/dwc2/params.c
+patching file drivers/usb/gadget/function/f_ncm.c
+patching file drivers/usb/gadget/function/u_ether.c
+Hunk #1 succeeded at 76 (offset -17 lines).
+patching file drivers/video/backlight/sky81452-backlight.c
+patching file drivers/video/fbdev/aty/radeon_base.c
+patching file drivers/video/fbdev/sis/init.c
+patching file drivers/video/fbdev/vga16fb.c
+patching file drivers/virt/fsl_hypervisor.c
+patching file fs/cifs/asn1.c
+patching file fs/cifs/smb2ops.c
+patching file fs/proc/base.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 1035.
+Hunk #2 FAILED at 1075.
+2 out of 2 hunks FAILED -- saving rejects to file fs/proc/base.c.rej
+patching file fs/quota/quota_v2.c
+patching file fs/xfs/libxfs/xfs_rtbitmap.c
+patching file fs/xfs/xfs_fsmap.c
+patching file include/linux/oom.h
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 45.
+1 out of 1 hunk FAILED -- saving rejects to file include/linux/oom.h.rej
+patching file include/linux/sched/coredump.h
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 72.
+1 out of 1 hunk FAILED -- saving rejects to file include/linux/sched/coredump.h.rej
+patching file include/net/ip.h
+Hunk #1 succeeded at 402 (offset 3 lines).
+patching file include/net/netfilter/nf_log.h
+patching file kernel/fork.c
+Hunk #1 succeeded at 1822 with fuzz 1 (offset 175 lines).
+Hunk #2 succeeded at 2345 with fuzz 2 (offset 242 lines).
+patching file mm/memcontrol.c
+Hunk #1 succeeded at 4782 (offset 2 lines).
+Hunk #2 succeeded at 4801 (offset 2 lines).
+patching file mm/oom_kill.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 62.
+1 out of 1 hunk FAILED -- saving rejects to file mm/oom_kill.c.rej
+patching file net/ipv4/icmp.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 244.
+Hunk #2 FAILED at 272.
+2 out of 2 hunks FAILED -- saving rejects to file net/ipv4/icmp.c.rej
+patching file net/ipv4/netfilter/nf_log_arp.c
+patching file net/ipv4/netfilter/nf_log_ipv4.c
+patching file net/ipv4/route.c
+patching file net/ipv4/tcp_input.c
+Hunk #1 succeeded at 5653 (offset 22 lines).
+patching file net/ipv6/ip6_fib.c
+patching file net/ipv6/netfilter/nf_log_ipv6.c
+patching file net/netfilter/ipvs/ip_vs_xmit.c
+patching file net/netfilter/nf_log_common.c
+patching file net/nfc/netlink.c
+patching file net/sched/act_tunnel_key.c
+patching file net/smc/smc_core.c
+patching file net/tipc/msg.c
+patching file net/tls/tls_device.c
+patching file net/wireless/nl80211.c
+Hunk #1 succeeded at 2012 (offset 62 lines).
+patching file security/integrity/ima/ima_crypto.c
+patching file sound/core/seq/oss/seq_oss.c
+patching file sound/firewire/bebob/bebob_hwdep.c
+patching file sound/pci/hda/patch_realtek.c
+patching file sound/soc/qcom/lpass-cpu.c
+patching file sound/soc/qcom/lpass-platform.c
