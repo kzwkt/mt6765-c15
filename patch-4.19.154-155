@@ -1,0 +1,330 @@
+
+2025-05-21 17:42:55 (869 KB/s) - ‘patch-4.19.154-155.xz’ saved [71152/71152]
+
+patching file Documentation/admin-guide/kernel-parameters.txt
+Hunk #1 succeeded at 5291 (offset 21 lines).
+patching file Documentation/filesystems/fscrypt.rst
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 426.
+Hunk #2 FAILED at 516.
+2 out of 2 hunks FAILED -- saving rejects to file Documentation/filesystems/fscrypt.rst.rej
+patching file Documentation/media/uapi/v4l/colorspaces-defs.rst
+patching file Documentation/media/uapi/v4l/colorspaces-details.rst
+patching file Makefile
+patching file arch/Kconfig
+patching file arch/arm/Kconfig
+Hunk #1 succeeded at 595 (offset 3 lines).
+patching file arch/arm/boot/dts/mt7623n-bananapi-bpi-r2.dts
+patching file arch/arm/boot/dts/omap4.dtsi
+patching file arch/arm/boot/dts/omap443x.dtsi
+patching file arch/arm/boot/dts/s5pv210.dtsi
+patching file arch/arm/kernel/hw_breakpoint.c
+patching file arch/arm/plat-samsung/Kconfig
+patching file arch/arm64/Kconfig.platforms
+patching file arch/arm64/Makefile
+Hunk #2 FAILED at 18.
+1 out of 2 hunks FAILED -- saving rejects to file arch/arm64/Makefile.rej
+patching file arch/arm64/boot/dts/renesas/ulcb.dtsi
+patching file arch/arm64/include/asm/kvm_host.h
+patching file arch/arm64/include/asm/numa.h
+patching file arch/arm64/kernel/cpu_errata.c
+Hunk #1 succeeded at 618 (offset -1 lines).
+Hunk #2 succeeded at 818 (offset -1 lines).
+patching file arch/arm64/kernel/topology.c
+patching file arch/arm64/kvm/sys_regs.c
+patching file arch/arm64/mm/numa.c
+patching file arch/ia64/kernel/Makefile
+patching file arch/ia64/kernel/kprobes.c
+patching file arch/powerpc/Kconfig
+patching file arch/powerpc/include/asm/drmem.h
+patching file arch/powerpc/include/asm/mmu_context.h
+patching file arch/powerpc/kernel/rtas.c
+patching file arch/powerpc/kernel/sysfs.c
+patching file arch/powerpc/kernel/traps.c
+patching file arch/powerpc/platforms/powernv/opal-elog.c
+patching file arch/powerpc/platforms/powernv/smp.c
+patching file arch/riscv/include/uapi/asm/auxvec.h
+patching file arch/s390/kernel/time.c
+patching file arch/sparc/kernel/smp_64.c
+patching file arch/um/kernel/sigio.c
+patching file arch/x86/events/amd/ibs.c
+patching file arch/x86/include/asm/msr-index.h
+patching file arch/x86/kernel/unwind_orc.c
+patching file arch/x86/pci/intel_mid_pci.c
+patching file arch/x86/xen/enlighten_pv.c
+patching file block/blk-core.c
+Hunk #1 succeeded at 2157 (offset 30 lines).
+patching file drivers/acpi/acpi_dbg.c
+patching file drivers/acpi/acpi_extlog.c
+patching file drivers/acpi/button.c
+patching file drivers/acpi/numa.c
+patching file drivers/acpi/video_detect.c
+patching file drivers/ata/sata_nv.c
+patching file drivers/ata/sata_rcar.c
+patching file drivers/base/core.c
+Hunk #1 succeeded at 3674 (offset 341 lines).
+Hunk #2 succeeded at 3689 (offset 341 lines).
+patching file drivers/block/nbd.c
+patching file drivers/block/xen-blkback/blkback.c
+patching file drivers/block/xen-blkback/xenbus.c
+patching file drivers/bus/fsl-mc/mc-io.c
+patching file drivers/clk/ti/clockdomain.c
+patching file drivers/cpufreq/acpi-cpufreq.c
+patching file drivers/cpufreq/sti-cpufreq.c
+patching file drivers/crypto/chelsio/chtls/chtls_cm.c
+patching file drivers/crypto/chelsio/chtls/chtls_io.c
+patching file drivers/dma/dma-jz4780.c
+patching file drivers/gpu/drm/amd/amdgpu/amdgpu_gem.c
+Hunk #1 succeeded at 565 (offset 2 lines).
+Hunk #2 succeeded at 586 (offset 2 lines).
+patching file drivers/gpu/drm/amd/display/dc/core/dc_link.c
+patching file drivers/gpu/drm/amd/display/dc/os_types.h
+patching file drivers/gpu/drm/bridge/megachips-stdpxxxx-ge-b850v3-fw.c
+patching file drivers/gpu/drm/bridge/synopsys/dw-mipi-dsi.c
+patching file drivers/gpu/drm/i915/i915_drv.h
+patching file drivers/gpu/drm/ttm/ttm_bo.c
+patching file drivers/hid/wacom_wac.c
+patching file drivers/i2c/busses/i2c-imx.c
+patching file drivers/iio/adc/ti-adc0832.c
+patching file drivers/iio/adc/ti-adc12138.c
+patching file drivers/iio/gyro/itg3200_buffer.c
+patching file drivers/iio/light/si1145.c
+patching file drivers/infiniband/core/addr.c
+patching file drivers/infiniband/hw/qedr/qedr_iw_cm.c
+patching file drivers/input/serio/hil_mlc.c
+patching file drivers/input/serio/hp_sdc_mlc.c
+patching file drivers/leds/leds-bcm6328.c
+patching file drivers/leds/leds-bcm6358.c
+patching file drivers/md/md-bitmap.c
+patching file drivers/md/raid5.c
+patching file drivers/media/i2c/imx274.c
+patching file drivers/media/pci/tw5864/tw5864-video.c
+patching file drivers/media/platform/mtk-jpeg/mtk_jpeg_core.c
+Hunk #1 succeeded at 744 (offset 165 lines).
+patching file drivers/media/usb/uvc/uvc_ctrl.c
+patching file drivers/memory/emif.c
+patching file drivers/message/fusion/mptscsih.c
+patching file drivers/misc/cxl/pci.c
+patching file drivers/mmc/host/sdhci-acpi.c
+patching file drivers/mmc/host/via-sdmmc.c
+patching file drivers/mtd/ubi/wl.c
+patching file drivers/net/ethernet/broadcom/bnxt/bnxt.c
+patching file drivers/net/ethernet/chelsio/cxgb4/cxgb4_filter.c
+patching file drivers/net/ethernet/chelsio/cxgb4/t4_tcb.h
+patching file drivers/net/ethernet/mellanox/mlxsw/core.c
+patching file drivers/net/ethernet/realtek/r8169.c
+patching file drivers/net/ethernet/renesas/ravb_main.c
+patching file drivers/net/gtp.c
+patching file drivers/net/wan/hdlc_fr.c
+patching file drivers/net/wireless/ath/ath10k/htt_rx.c
+patching file drivers/net/wireless/ath/ath10k/sdio.c
+patching file drivers/net/wireless/intersil/p54/p54pci.c
+patching file drivers/net/xen-netback/common.h
+patching file drivers/net/xen-netback/interface.c
+patching file drivers/net/xen-netback/netback.c
+patching file drivers/net/xen-netback/rx.c
+patching file drivers/nvme/host/rdma.c
+patching file drivers/power/supply/bq27xxx_battery.c
+patching file drivers/power/supply/test_power.c
+patching file drivers/rpmsg/qcom_glink_native.c
+patching file drivers/rtc/rtc-rx8010.c
+patching file drivers/scsi/qla2xxx/qla_target.c
+patching file drivers/staging/comedi/drivers/cb_pcidas.c
+patching file drivers/staging/octeon/ethernet-mdio.c
+patching file drivers/staging/octeon/ethernet-rx.c
+patching file drivers/staging/octeon/ethernet.c
+patching file drivers/tty/serial/amba-pl011.c
+patching file drivers/tty/vt/keyboard.c
+patching file drivers/tty/vt/vt_ioctl.c
+patching file drivers/uio/uio.c
+patching file drivers/usb/class/cdc-acm.c
+patching file drivers/usb/class/cdc-acm.h
+patching file drivers/usb/dwc3/core.c
+patching file drivers/usb/dwc3/ep0.c
+Hunk #1 succeeded at 943 (offset 8 lines).
+Hunk #2 succeeded at 999 (offset 8 lines).
+patching file drivers/usb/dwc3/gadget.c
+patching file drivers/usb/host/fsl-mph-dr-of.c
+patching file drivers/usb/host/xhci-pci.c
+patching file drivers/usb/host/xhci.c
+Hunk #1 succeeded at 990 (offset 18 lines).
+patching file drivers/usb/host/xhci.h
+Hunk #1 succeeded at 1881 (offset 9 lines).
+patching file drivers/usb/misc/adutux.c
+patching file drivers/usb/typec/tcpm.c
+patching file drivers/vhost/vringh.c
+patching file drivers/video/fbdev/pvr2fb.c
+patching file drivers/w1/masters/mxc_w1.c
+patching file drivers/watchdog/rdc321x_wdt.c
+patching file drivers/xen/events/events_2l.c
+patching file drivers/xen/events/events_base.c
+patching file drivers/xen/events/events_fifo.c
+patching file drivers/xen/events/events_internal.h
+patching file drivers/xen/evtchn.c
+patching file drivers/xen/pvcalls-back.c
+patching file drivers/xen/xen-pciback/pci_stub.c
+patching file drivers/xen/xen-pciback/pciback.h
+patching file drivers/xen/xen-pciback/pciback_ops.c
+patching file drivers/xen/xen-pciback/xenbus.c
+patching file drivers/xen/xen-scsiback.c
+patching file fs/9p/vfs_file.c
+patching file fs/btrfs/ctree.c
+patching file fs/btrfs/delayed-inode.c
+patching file fs/btrfs/dev-replace.c
+patching file fs/btrfs/reada.c
+patching file fs/btrfs/send.c
+patching file fs/btrfs/tree-log.c
+patching file fs/btrfs/volumes.c
+patching file fs/buffer.c
+Hunk #1 succeeded at 2743 (offset 1 line).
+Hunk #2 succeeded at 2937 (offset 1 line).
+patching file fs/cachefiles/rdwr.c
+patching file fs/ceph/addr.c
+patching file fs/cifs/inode.c
+patching file fs/crypto/crypto.c
+Hunk #1 FAILED at 314.
+1 out of 1 hunk FAILED -- saving rejects to file fs/crypto/crypto.c.rej
+patching file fs/crypto/fname.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 354.
+1 out of 1 hunk FAILED -- saving rejects to file fs/crypto/fname.c.rej
+patching file fs/crypto/hooks.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 49.
+Hunk #2 FAILED at 57.
+Hunk #3 FAILED at 78.
+3 out of 3 hunks FAILED -- saving rejects to file fs/crypto/hooks.c.rej
+patching file fs/crypto/policy.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 153.
+1 out of 1 hunk FAILED -- saving rejects to file fs/crypto/policy.c.rej
+patching file fs/dcache.c
+Hunk #1 succeeded at 2698 with fuzz 1 (offset -14 lines).
+Hunk #2 FAILED at 2801.
+1 out of 2 hunks FAILED -- saving rejects to file fs/dcache.c.rej
+patching file fs/efivarfs/super.c
+patching file fs/exec.c
+Hunk #1 succeeded at 1029 (offset 1 line).
+patching file fs/ext4/ext4.h
+Hunk #1 FAILED at 2326.
+Hunk #2 FAILED at 2356.
+2 out of 2 hunks FAILED -- saving rejects to file fs/ext4/ext4.h.rej
+patching file fs/ext4/inode.c
+Hunk #1 succeeded at 5348 (offset 77 lines).
+Hunk #2 succeeded at 5387 (offset 77 lines).
+patching file fs/ext4/namei.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 1343.
+Hunk #2 FAILED at 1353.
+Hunk #3 FAILED at 1405.
+Hunk #4 FAILED at 1470.
+Hunk #5 FAILED at 1501.
+Hunk #6 FAILED at 1563.
+6 out of 6 hunks FAILED -- saving rejects to file fs/ext4/namei.c.rej
+patching file fs/ext4/resize.c
+patching file fs/ext4/super.c
+Hunk #1 succeeded at 4717 (offset 123 lines).
+Hunk #2 succeeded at 5881 (offset 128 lines).
+patching file fs/f2fs/checkpoint.c
+Hunk #1 succeeded at 243 (offset 25 lines).
+Hunk #2 succeeded at 1049 (offset 44 lines).
+patching file fs/f2fs/dir.c
+Hunk #1 succeeded at 380 (offset 172 lines).
+Hunk #2 succeeded at 399 (offset 171 lines).
+patching file fs/f2fs/namei.c
+Hunk #1 FAILED at 432.
+Hunk #2 FAILED at 484.
+2 out of 2 hunks FAILED -- saving rejects to file fs/f2fs/namei.c.rej
+patching file fs/fuse/dev.c
+Hunk #1 succeeded at 870 (offset 17 lines).
+Hunk #2 succeeded at 919 (offset 17 lines).
+Hunk #3 succeeded at 938 (offset 17 lines).
+Hunk #4 succeeded at 959 (offset 17 lines).
+Hunk #5 succeeded at 974 (offset 17 lines).
+patching file fs/gfs2/ops_fstype.c
+patching file fs/nfs/namespace.c
+patching file fs/nfs/nfs4proc.c
+patching file fs/nfsd/nfsproc.c
+patching file fs/ubifs/debug.c
+patching file fs/ubifs/dir.c
+Hunk #1 FAILED at 220.
+1 out of 1 hunk FAILED -- saving rejects to file fs/ubifs/dir.c.rej
+patching file fs/udf/super.c
+patching file fs/xfs/libxfs/xfs_bmap.c
+patching file fs/xfs/xfs_rtalloc.c
+patching file include/linux/dcache.h
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 210.
+1 out of 1 hunk FAILED -- saving rejects to file include/linux/dcache.h.rej
+patching file include/linux/fscrypt.h
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] y
+Hunk #1 FAILED at 32.
+Hunk #2 FAILED at 89.
+Hunk #3 FAILED at 97.
+Hunk #4 FAILED at 119.
+Hunk #5 FAILED at 138.
+5 out of 5 hunks FAILED -- saving rejects to file include/linux/fscrypt.h.rej
+can't find file to patch at input line 7901
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/include/linux/fscrypt_notsupp.h b/include/linux/fscrypt_notsupp.h
+|index ee8b43e4c15a6..24b261e49dc14 100644
+|--- a/include/linux/fscrypt_notsupp.h
+|+++ b/include/linux/fscrypt_notsupp.h
+--------------------------
+File to patch: 
+Skip this patch? [y] n
+File to patch: 
+Skip this patch? [y] y
+Skipping patch.
+3 out of 3 hunks ignored
+can't find file to patch at input line 7935
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/include/linux/fscrypt_supp.h b/include/linux/fscrypt_supp.h
+|index 6456c6b2005f4..8641e20694ce9 100644
+|--- a/include/linux/fscrypt_supp.h
+|+++ b/include/linux/fscrypt_supp.h
+--------------------------
+File to patch: 
+Skip this patch? [y] 
+Skipping patch.
+1 out of 1 hunk ignored
+patching file include/linux/hil_mlc.h
+patching file include/linux/mtd/pfow.h
+patching file include/linux/usb/pd.h
+patching file include/uapi/linux/bpf.h
+patching file include/uapi/linux/nfs4.h
+patching file include/uapi/linux/videodev2.h
+Hunk #1 succeeded at 363 (offset 1 line).
+Hunk #2 succeeded at 374 (offset 1 line).
+patching file include/xen/events.h
+patching file init/Kconfig
+Hunk #1 succeeded at 600 (offset 65 lines).
+patching file kernel/debug/debug_core.c
+patching file kernel/futex.c
+Hunk #1 succeeded at 1528 (offset 11 lines).
+patching file kernel/trace/ring_buffer.c
+patching file lib/scatterlist.c
+patching file net/9p/trans_fd.c
+patching file net/ceph/messenger.c
+patching file net/ipv4/tcp.c
+Hunk #1 succeeded at 501 (offset 6 lines).
+patching file net/ipv4/tcp_input.c
+Hunk #1 succeeded at 4726 (offset 22 lines).
+patching file net/sched/sch_netem.c
+patching file net/tipc/msg.c
+patching file scripts/setlocalversion
+patching file security/integrity/evm/evm_main.c
+patching file tools/include/uapi/linux/bpf.h
+patching file tools/objtool/orc_gen.c
+patching file tools/perf/util/print_binary.c
