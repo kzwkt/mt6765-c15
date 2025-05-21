@@ -1,0 +1,32 @@
+2025-05-21 18:33:06 (3.68 MB/s) - ‘patch-4.19.158-159.xz’ saved [10704/10704]
+
+patching file Documentation/admin-guide/kernel-parameters.txt
+Hunk #1 succeeded at 2569 (offset 9 lines).
+Hunk #2 succeeded at 2881 (offset 9 lines).
+Hunk #3 succeeded at 2932 (offset 9 lines).
+patching file Makefile
+patching file arch/powerpc/include/asm/book3s/64/kup-radix.h
+patching file arch/powerpc/include/asm/exception-64s.h
+patching file arch/powerpc/include/asm/feature-fixups.h
+patching file arch/powerpc/include/asm/futex.h
+patching file arch/powerpc/include/asm/kup.h
+patching file arch/powerpc/include/asm/security_features.h
+patching file arch/powerpc/include/asm/setup.h
+patching file arch/powerpc/include/asm/uaccess.h
+patching file arch/powerpc/kernel/exceptions-64s.S
+patching file arch/powerpc/kernel/head_8xx.S
+patching file arch/powerpc/kernel/setup_64.c
+patching file arch/powerpc/kernel/vmlinux.lds.S
+patching file arch/powerpc/lib/checksum_wrappers.c
+patching file arch/powerpc/lib/feature-fixups.c
+patching file arch/powerpc/lib/string_32.S
+patching file arch/powerpc/lib/string_64.S
+patching file arch/powerpc/platforms/powernv/setup.c
+patching file arch/powerpc/platforms/pseries/setup.c
+patching file arch/x86/kvm/emulate.c
+patching file drivers/acpi/evged.c
+patching file drivers/input/keyboard/sunkbd.c
+patching file net/can/proc.c
+patching file net/mac80211/sta_info.c
+patching file tools/perf/util/cs-etm.c
+patching file tools/perf/util/cs-etm.h
